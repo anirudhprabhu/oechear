@@ -1,0 +1,1 @@
+#Script for converting classes into properties for body measures in oechear ontology.
