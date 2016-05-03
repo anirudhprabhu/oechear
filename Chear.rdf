@@ -40,7 +40,6 @@
         <dct:contributor xml:lang="en">Sheehan, John</dct:contributor>
         <skos:changeNote>Added the MIT license to our ontology headers; Fixed the problems in our ontology headers according to the feedback we got from the instructors.</skos:changeNote>
         <dct:abstract xml:lang="en">The purpose of this use case is to develop an ontology to compare and contrast two studies with one goal of determining how study results might meaningfully be combined. One examined relationships between different body size measurements and asthma in ethnic minority children[1], while the other examined the association between prenatal and postnatal maternal stress and wheeze in 417 children enrolled in a prospective birth cohort in Mexico City.</dct:abstract>
-        <owl:imports rdf:resource="http://www.w3.org/ns/prov"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
     </owl:Ontology>
