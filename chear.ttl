@@ -104,6 +104,26 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                            rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement> .
 
 
+###  http://hadatac.org/ont/chear#postNatalETSExposure
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+
+###  http://hadatac.org/ont/chear#preNatalETSExposure
+
+:preNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+
+
+###  http://hadatac.org/ont/chear#passiveSmoking
+
+:passiveSmoking rdf:type owl:ObjectProperty ;
+
+                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+
+
 
 
 
