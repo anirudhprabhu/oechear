@@ -60,6 +60,11 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                        rdfs:range :AttributeReference .
 
 
+###  http://hadatac.org/ont/chear#exposure
+
+:exposure rdf:type owl:ObjectProperty ;
+
+
 
 ###  http://hadatac.org/ont/chear#hasDataset
 
@@ -108,20 +113,20 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 :postNatalETSExposure rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+                           rdfs:subPropertyOf :exposure .
 
 ###  http://hadatac.org/ont/chear#preNatalETSExposure
 
 :preNatalETSExposure rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+                           rdfs:subPropertyOf :exposure .
 
 
 ###  http://hadatac.org/ont/chear#passiveSmoking
 
 :passiveSmoking rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#exposure> .
+                           rdfs:subPropertyOf :exposure .
 
 
 
