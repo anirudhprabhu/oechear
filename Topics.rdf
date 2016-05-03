@@ -496,20 +496,6 @@
 
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Asthma -->
-
-    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Asthma">
-        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryInfection"/>
-        <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/195967001</dct:source>
-        <skos:altLabel>hyperreactiveAirwayDisease</skos:altLabel>
-        <skos:definition>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</skos:definition>
-        <skos:prefLabel>asthma</skos:prefLabel>
-        <skos:altLabel>airwayHyperreactivity</skos:altLabel>
-        <rdfs:isDefinedBy>http://purl.bioontology.org/ontology/SNOMEDCT/195967001</rdfs:isDefinedBy>
-    </owl:Class>
-
-
-
     <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Authority -->
 
     <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Authority">
@@ -901,19 +887,6 @@
         <skos:definition>Question that asks for psychosocial information</skos:definition>
         <skos:prefLabel>psychosocialQuestion</skos:prefLabel>
     </owl:Class>
-
-
-
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialStressScore -->
-
-    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialStressScore">
-        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyCompositionCalculation"/>
-        <skos:prefLabel>psychosocialStressScore</skos:prefLabel>
-        <rdfs:isDefinedBy>http://www.ebi.ac.uk/efo/EFO_0006783</rdfs:isDefinedBy>
-        <skos:definition>The quantification of psychosocial stress factors such as financial strain, marital problems, work-related difficulties or health problems, usually assessed through self-reporting via standardised questionnaires.</skos:definition>
-        <dct:source>http://www.ebi.ac.uk/efo/EFO_0006783</dct:source>
-    </owl:Class>
-
 
 
     <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question -->
