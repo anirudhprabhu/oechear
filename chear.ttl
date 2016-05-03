@@ -1,0 +1,1741 @@
+@prefix : <http://hadatac.org/ont/chear#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sio: <http://sementicscience.org/resource/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix oboe: <http://ecoinformatics.org/oboe/oboe.1.0/oboe./owl#> .
+@prefix prov: <http://hadatac.org/ont/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hasco: <http://hadatac.org/ont/hasco#> .
+@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix hasneto: <http://hadatac.org/ont/hasneto#> .
+@base <http://hadatac.org/ont/chear> .
+
+<http://hadatac.org/ont/chear> rdf:type owl:Ontology ;
+                               
+                               owl:versionIRI <http://hadatac.org/ont/chear/0.3/> ;
+                               
+                               owl:imports <http://hadatac.org/ont/hasco/> ;
+                               
+                               rdfs:comment """Children's health and wellbeing are influenced by interactions between environmental and genetic factors. NIEHS is establishing an infrastructure, the Children's Health Exposure Analysis Resource (CHEAR), to provide the extramural research community access to laboratory and data analyses that add or expand the inclusion of environmental exposures in childrenâ€™s health research. The goal of CHEAR is to provide tools so researchers can assess the full range of environmental exposures which may affect children's health. We anticipate that CHEAR will be used by children's health researchers conducting epidemiological or clinical studies that currently have limited consideration of environmental exposures, or those who have collected exposure data but seek more extensive analyses.
+
+Read more at: https://www.niehs.nih.gov/research/supported/exposure/chear/""" .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://hadatac.org/ont/vstoi#hasMeasuredCharacteristic
+
+vstoi:hasMeasuredCharacteristic rdf:type owl:AnnotationProperty .
+
+
+
+###  http://hadatac.org/ont/vstoi#hasWebDocumentation
+
+vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://hadatac.org/ont/chear#hasAttributeReference
+
+:hasAttributeReference rdf:type owl:ObjectProperty ;
+                       
+                       rdfs:domain vstoi:Dataset ;
+                       
+                       rdfs:range :AttributeReference .
+
+
+
+###  http://hadatac.org/ont/chear#hasDataset
+
+:hasDataset rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain hasco:Study ;
+            
+            rdfs:range vstoi:Dataset .
+
+
+
+###  http://hadatac.org/ont/chear#hasPossibleValue
+
+:hasPossibleValue rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :AttributeReference ;
+                  
+                  rdfs:range :PossibleValue .
+
+
+
+###  http://hadatac.org/ont/chear#mothersHeightInCM
+
+:mothersHeightInCM rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement> .
+
+
+
+###  http://hadatac.org/ont/chear#mothersPostPregnancyWeight
+
+:mothersPostPregnancyWeight rdf:type owl:ObjectProperty ;
+                            
+                            rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement> .
+
+
+
+###  http://hadatac.org/ont/chear#mothersPrePregnancyWeight
+
+:mothersPrePregnancyWeight rdf:type owl:ObjectProperty ;
+                           
+                           rdfs:subPropertyOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasMeasurement> .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasCode
+
+<http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#hasCode> rdfs:domain :PossibleValue .
+
+
+
+###  http://hadatac.org/ont/chear#c_Section_Priority
+
+:c_Section_Priority rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:domain sio:SIO_000498 ;
+                    
+                    rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#drugHistory
+
+:drugHistory rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain sio:SIO_000498 ;
+             
+             rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#ethnicityAndRaceSythesizedFromChartAndSurvey
+
+:ethnicityAndRaceSythesizedFromChartAndSurvey rdf:type owl:DatatypeProperty ;
+                                              
+                                              rdfs:domain sio:SIO_000498 ;
+                                              
+                                              rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#hasReference
+
+:hasReference rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :AttributeReference ;
+              
+              rdfs:range rdfs:Literal .
+
+
+
+###  http://hadatac.org/ont/chear#hasValue
+
+:hasValue rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :PossibleValue ;
+          
+          rdfs:range rdfs:Literal .
+
+
+
+###  http://hadatac.org/ont/chear#maritalStatus
+
+:maritalStatus rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain sio:SIO_000498 ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#mothersAgeInYears
+
+:mothersAgeInYears rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:domain sio:SIO_000498 ;
+                   
+                   rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#mothersEducationBasedOnClinicalChart
+
+:mothersEducationBasedOnClinicalChart rdf:type owl:DatatypeProperty ;
+                                      
+                                      rdfs:domain sio:SIO_000498 ;
+                                      
+                                      rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#mothersOccupation
+
+:mothersOccupation rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:domain sio:SIO_000498 ;
+                   
+                   rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#newbornApgarScore
+
+:newbornApgarScore rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:domain sio:SIO_000498 ;
+                   
+                   rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#newbornBirthWeightInGrams
+
+:newbornBirthWeightInGrams rdf:type owl:DatatypeProperty ;
+                           
+                           rdfs:domain sio:SIO_000498 ;
+                           
+                           rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#newbornGender
+
+:newbornGender rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain sio:SIO_000498 ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#numberOfDaysAtTimeOfDelivery
+
+:numberOfDaysAtTimeOfDelivery rdf:type owl:DatatypeProperty ;
+                              
+                              rdfs:domain sio:SIO_000498 ;
+                              
+                              rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#numberOfTimesFemaleGaveBirth
+
+:numberOfTimesFemaleGaveBirth rdf:type owl:DatatypeProperty ;
+                              
+                              rdfs:domain sio:SIO_000498 ;
+                              
+                              rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#numberOfTimesFemaleGotPregnant
+
+:numberOfTimesFemaleGotPregnant rdf:type owl:DatatypeProperty ;
+                                
+                                rdfs:domain sio:SIO_000498 ;
+                                
+                                rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#pretermLessthan37weeks
+
+:pretermLessthan37weeks rdf:type owl:DatatypeProperty ;
+                        
+                        rdfs:domain sio:SIO_000498 ;
+                        
+                        rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#repeat_C_Section
+
+:repeat_C_Section rdf:type owl:DatatypeProperty ;
+                  
+                  rdfs:domain sio:SIO_000498 ;
+                  
+                  rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#routeOfDeliver
+
+:routeOfDeliver rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain sio:SIO_000498 ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://hadatac.org/ont/chear#smokingStatus
+
+:smokingStatus rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain sio:SIO_000498 ;
+               
+               rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://hadatac.org/ont/chear#AMA
+
+:AMA rdf:type owl:Class ;
+     
+     rdfs:subClassOf :AutoimmuneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#ANA
+
+:ANA rdf:type owl:Class ;
+     
+     rdfs:subClassOf :AutoimmuneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#ASMA
+
+:ASMA rdf:type owl:Class ;
+      
+      rdfs:subClassOf :AutoimmuneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Adrenal_Corticotrophic_Hormone
+
+:Adrenal_Corticotrophic_Hormone rdf:type owl:Class ;
+                                
+                                rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Alkaline_Phosphatase
+
+:Alkaline_Phosphatase rdf:type owl:Class ;
+                      
+                      rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Alpha_Foetoprotein
+
+:Alpha_Foetoprotein rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Alpha_GST
+
+:Alpha_GST rdf:type owl:Class ;
+           
+           rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Aminoterminal_Propeptide_Type_1_Collagen
+
+:Aminoterminal_Propeptide_Type_1_Collagen rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#AnemiaBiomarker
+
+:AnemiaBiomarker rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Anti_HBc
+
+:Anti_HBc rdf:type owl:Class ;
+          
+          rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Anti_HBs
+
+:Anti_HBs rdf:type owl:Class ;
+          
+          rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Antimony
+
+:Antimony rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Apolipoprotein_AI
+
+:Apolipoprotein_AI rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Apolipoprotein_B48
+
+:Apolipoprotein_B48 rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Apolipoprotein_CII
+
+:Apolipoprotein_CII rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Apolipoprotein_E
+
+:Apolipoprotein_E rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :CardiacBiomarker ,
+                                  :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Arsenic
+
+:Arsenic rdf:type owl:Class ;
+         
+         rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Assay
+
+:Assay rdf:type owl:Class ;
+       
+       rdfs:subClassOf hasco:MethodActivity ;
+       
+       rdfs:comment "used to determine the concentration of a chemical compound or chemical element" .
+
+
+
+###  http://hadatac.org/ont/chear#AttributeReference
+
+:AttributeReference rdf:type owl:Class .
+
+
+
+###  http://hadatac.org/ont/chear#AutoimmuneDiseaseBiomarker
+
+:AutoimmuneDiseaseBiomarker rdf:type owl:Class ;
+                            
+                            rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Barium
+
+:Barium rdf:type owl:Class ;
+        
+        rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Bile
+
+:Bile rdf:type owl:Class ;
+      
+      rdfs:subClassOf <http://semanticscience.org/resource/SIO_010051> .
+
+
+
+###  http://hadatac.org/ont/chear#Biomarker
+
+:Biomarker rdf:type owl:Class ;
+           
+           rdfs:subClassOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic> .
+
+
+
+###  http://hadatac.org/ont/chear#Biomolecule
+
+:Biomolecule rdf:type owl:Class ;
+             
+             rdfs:subClassOf <http://semanticscience.org/resource/SIO_010046> .
+
+
+
+###  http://hadatac.org/ont/chear#BirthBodyLength
+
+:BirthBodyLength rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :BirthCharacteristic .
+
+
+
+###  http://hadatac.org/ont/chear#BirthCharacteristic
+
+:BirthCharacteristic rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf <http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Characteristic> .
+
+
+
+###  http://hadatac.org/ont/chear#BirthGestationalAge
+
+:BirthGestationalAge rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :BirthCharacteristic .
+
+
+
+###  http://hadatac.org/ont/chear#BirthHeadCircumference
+
+:BirthHeadCircumference rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :BirthCharacteristic .
+
+
+
+###  http://hadatac.org/ont/chear#BirthWeight
+
+:BirthWeight rdf:type owl:Class ;
+             
+             rdfs:subClassOf :BirthCharacteristic .
+
+
+
+###  http://hadatac.org/ont/chear#BloodFluid
+
+:BloodFluid rdf:type owl:Class ;
+            
+            rdfs:subClassOf <http://semanticscience.org/resource/SIO_010051> .
+
+
+
+###  http://hadatac.org/ont/chear#BloodPlasma
+
+:BloodPlasma rdf:type owl:Class ;
+             
+             rdfs:subClassOf :BloodFluid .
+
+
+
+###  http://hadatac.org/ont/chear#BoneDiseaseBiomarker
+
+:BoneDiseaseBiomarker rdf:type owl:Class ;
+                      
+                      rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Bone_Specific_Alkaline_Phosphatase
+
+:Bone_Specific_Alkaline_Phosphatase rdf:type owl:Class ;
+                                    
+                                    rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Brain_Natriuretic_Peptide
+
+:Brain_Natriuretic_Peptide rdf:type owl:Class ;
+                           
+                           rdfs:subClassOf :CardiacBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#CA19_9
+
+:CA19_9 rdf:type owl:Class ;
+        
+        rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#CK
+
+:CK rdf:type owl:Class ;
+    
+    rdfs:subClassOf :CardiacBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#CKMB
+
+:CKMB rdf:type owl:Class ;
+      
+      rdfs:subClassOf :CardiacBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#CRPhs
+
+:CRPhs rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Cadmium
+
+:Cadmium rdf:type owl:Class ;
+         
+         rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Calcium
+
+:Calcium rdf:type owl:Class ;
+         
+         rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Capillary_Electrophoresis_Instrument
+
+:Capillary_Electrophoresis_Instrument rdf:type owl:Class ;
+                                      
+                                      rdfs:subClassOf vstoi:PhysicalInstrument ;
+                                      
+                                      vstoi:hasWebDocumentation <http://sciex.com/products/capillary-electrophoresis-instruments> ;
+                                      
+                                      rdfs:comment "Optimize your workflow efficiency with these capillary electrophoresis systems - from the highly sensitive multiplex gene expression capabilities of the GeXP Genetic Analysis System and the high-resolution applications of the PA 800 plus Pharmaceutical Analysis System, to the exceedingly sensitive CESI 8000 High Performance Separation-ESI Module." .
+
+
+
+###  http://hadatac.org/ont/chear#Carcinogenic_Embryonic_Antigen
+
+:Carcinogenic_Embryonic_Antigen rdf:type owl:Class ;
+                                
+                                rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#CardiacBiomarker
+
+:CardiacBiomarker rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Chemiluminescent
+
+:Chemiluminescent rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Assay ;
+                  
+                  vstoi:hasMeasuredCharacteristic :Alpha_Foetoprotein ,
+                                                  :Carcinogenic_Embryonic_Antigen ,
+                                                  :Cortisol ,
+                                                  :Erythropoietin ,
+                                                  :Ferritin ,
+                                                  :Folates ,
+                                                  :Prostate_Specific_Antigen ,
+                                                  :Vitamin_B12 ;
+                  
+                  rdfs:comment "Chemiluminescent" .
+
+
+
+###  http://hadatac.org/ont/chear#Chlamydia_Trachomalis
+
+:Chlamydia_Trachomalis rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Cholesterol
+
+:Cholesterol rdf:type owl:Class ;
+             
+             rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Cholesteryl_Ester_Transfer_Protein
+
+:Cholesteryl_Ester_Transfer_Protein rdf:type owl:Class ;
+                                    
+                                    rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Clusterin
+
+:Clusterin rdf:type owl:Class ;
+           
+           rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Coagulometry
+
+:Coagulometry rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Assay ;
+              
+              rdfs:comment "Coagulometry" .
+
+
+
+###  http://hadatac.org/ont/chear#Cobalt
+
+:Cobalt rdf:type owl:Class ;
+        
+        rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Collagen_Type_IV
+
+:Collagen_Type_IV rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Colorimetric
+
+:Colorimetric rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Assay ;
+              
+              vstoi:hasMeasuredCharacteristic :Alkaline_Phosphatase ,
+                                              :CK ,
+                                              :Calcium ,
+                                              :Cholesterol ,
+                                              :Creatinine ,
+                                              :Hemoglobin ,
+                                              :Iron ,
+                                              :LDH ,
+                                              :Triglycerides ;
+              
+              rdfs:comment "Colorimetric" .
+
+
+
+###  http://hadatac.org/ont/chear#Corticosterone
+
+:Corticosterone rdf:type owl:Class ;
+                
+                rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Cortisol
+
+:Cortisol rdf:type owl:Class ;
+          
+          rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Creatinine
+
+:Creatinine rdf:type owl:Class ;
+            
+            rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Cytomegalovirus
+
+:Cytomegalovirus rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#DNA
+
+:DNA rdf:type owl:Class ;
+     
+     rdfs:subClassOf :NucleicAcid .
+
+
+
+###  http://hadatac.org/ont/chear#DataOfBirth
+
+:DataOfBirth rdf:type owl:Class ;
+             
+             rdfs:subClassOf <http://semanticscience.org/resource/SIO_000475> .
+
+
+
+###  http://hadatac.org/ont/chear#DiabetesBiomarker
+
+:DiabetesBiomarker rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#ELISA
+
+:ELISA rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Assay ;
+       
+       vstoi:hasMeasuredCharacteristic :AMA ,
+                                       :ANA ,
+                                       :ASMA ,
+                                       :Adrenal_Corticotrophic_Hormone ,
+                                       :Alpha_GST ,
+                                       :Apolipoprotein_B48 ,
+                                       :Bone_Specific_Alkaline_Phosphatase ,
+                                       :Brain_Natriuretic_Peptide ,
+                                       :Cholesteryl_Ester_Transfer_Protein ,
+                                       :Clusterin ,
+                                       :Collagen_Type_IV ,
+                                       :Endothelin_1 ,
+                                       :Fibroblast_Growth_Factor ,
+                                       :Gastrine ,
+                                       :Growth_Hormone ,
+                                       :Growth_Releasing_Factor ,
+                                       :Lecithin_Cholesterol_Acyltransferase ,
+                                       :Pi_GST ,
+                                       :Placenta_Growth_Factor ,
+                                       :Prolactin ,
+                                       :RNP ,
+                                       :TPO ,
+                                       :Thyroglobulin ,
+                                       :Vascular_Endothelial_Growth_Factor ,
+                                       :dsDNA ;
+       
+       rdfs:comment "ELISA" .
+
+
+
+###  http://hadatac.org/ont/chear#EndocrinologyBiomarker
+
+:EndocrinologyBiomarker rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Endothelin_1
+
+:Endothelin_1 rdf:type owl:Class ;
+              
+              rdfs:subClassOf :CardiacBiomarker ,
+                              :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Enzymatic
+
+:Enzymatic rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Assay ;
+           
+           vstoi:hasMeasuredCharacteristic :Lipase ,
+                                           :NAG ;
+           
+           rdfs:comment "Enzymatic" .
+
+
+
+###  http://hadatac.org/ont/chear#Erythropoietin
+
+:Erythropoietin rdf:type owl:Class ;
+                
+                rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#FT3
+
+:FT3 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#FT4
+
+:FT4 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#Ferritin
+
+:Ferritin rdf:type owl:Class ;
+          
+          rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Fibroblast_Growth_Factor
+
+:Fibroblast_Growth_Factor rdf:type owl:Class ;
+                          
+                          rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Folates
+
+:Folates rdf:type owl:Class ;
+         
+         rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Free_Fatty_Acids
+
+:Free_Fatty_Acids rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Fructosamine
+
+:Fructosamine rdf:type owl:Class ;
+              
+              rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#GC_MS_Systems_Instrument
+
+:GC_MS_Systems_Instrument rdf:type owl:Class ;
+                          
+                          rdfs:subClassOf :Mass_Spectrometry_Instrument ;
+                          
+                          vstoi:hasWebDocumentation <http://www.agilent.com/en-us/products/mass-spectrometry/gc-ms-systems> ;
+                          
+                          rdfs:comment "GC/MS technologies provide precise flow distribution for simple column splits to backflush and GCxGC analytical techniques. The range of CFT devices are low thermal mass, oven mountable, and provide easy to make leak free connections. Our portfolio includes Inert Flow Path (IFP) solutions to reduce unplanned downtime, enable reliable, leak-free, in-oven capillary connections that can withstand temperature extremes. Agilent GC technology, allows you to achieve better peak resolution and increased sensitivity for low thermal mass or challenging compounds." .
+
+
+
+###  http://hadatac.org/ont/chear#Gastrine
+
+:Gastrine rdf:type owl:Class ;
+          
+          rdfs:subClassOf :GastroenterologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#GastroenterologyBiomarker
+
+:GastroenterologyBiomarker rdf:type owl:Class ;
+                           
+                           rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Glucagon
+
+:Glucagon rdf:type owl:Class ;
+          
+          rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Growth_Hormone
+
+:Growth_Hormone rdf:type owl:Class ;
+                
+                rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Growth_Releasing_Factor
+
+:Growth_Releasing_Factor rdf:type owl:Class ;
+                         
+                         rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HIV_Viral_Load
+
+:HIV_Viral_Load rdf:type owl:Class ;
+                
+                rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HLA_A
+
+:HLA_A rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HLA_B
+
+:HLA_B rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HLA_C
+
+:HLA_C rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HPLC_product
+
+:HPLC_product rdf:type owl:Class ;
+              
+              rdfs:subClassOf vstoi:PhysicalInstrument ;
+              
+              vstoi:hasWebDocumentation <http://sciex.com/products/hplc-products> ;
+              
+              rdfs:comment "Whether you're looking for nanoflow HPLC for nanospray LC/MS, robust and reproducible nanoLC with cHiPLC, or high-throughput microflow HPLC for drug discovery and development, explore our systems and discover new ways to think about HPLC." .
+
+
+
+###  http://hadatac.org/ont/chear#HbA1c
+
+:HbA1c rdf:type owl:Class ;
+       
+       rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Hemoglobin
+
+:Hemoglobin rdf:type owl:Class ;
+            
+            rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Hepatitis_C_Genotype
+
+:Hepatitis_C_Genotype rdf:type owl:Class ;
+                      
+                      rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Hepatitis_C_Viral_Load
+
+:Hepatitis_C_Viral_Load rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :InfectiousDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#HighestEducation
+
+:HighestEducation rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :IntellectualQuality .
+
+
+
+###  http://hadatac.org/ont/chear#HighestGrade
+
+:HighestGrade rdf:type owl:Class ;
+              
+              rdfs:subClassOf :IntellectualQuality .
+
+
+
+###  http://hadatac.org/ont/chear#ICP_MS_Instrument
+
+:ICP_MS_Instrument rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf vstoi:PhysicalInstrument ;
+                   
+                   vstoi:hasWebDocumentation <http://www.agilent.com/en-us/products/icp-ms> ;
+                   
+                   rdfs:comment "Agilent ICP-MS systems deliver innovative technology that excels on sensitivity, automation and ease of use. Our quadrupole 7900 ICP-MS offers the highest matrix tolerance, widest dynamic range and most effective interference removal for trace elements. The new 8800 Triple Quadrupole ICP-MS (ICP-QQQ) supports MS/MS operation, providing precise reaction process control and ensuring reaction cell modes deliver consistently, even during sample make-up changes." .
+
+
+
+###  http://hadatac.org/ont/chear#IQ
+
+:IQ rdf:type owl:Class ;
+    
+    rdfs:subClassOf :IntellectualQuality .
+
+
+
+###  http://hadatac.org/ont/chear#Immunoassay
+
+:Immunoassay rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Assay ;
+             
+             vstoi:hasMeasuredCharacteristic :Alpha_Foetoprotein ,
+                                             :Carcinogenic_Embryonic_Antigen ,
+                                             :Cortisol ,
+                                             :Erythropoietin ,
+                                             :Ferritin ,
+                                             :Folates ,
+                                             :Prostate_Specific_Antigen ,
+                                             :Vitamin_B12 ;
+             
+             rdfs:comment "Immunoassay" .
+
+
+
+###  http://hadatac.org/ont/chear#Immunochemistry
+
+:Immunochemistry rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :Assay ;
+                 
+                 vstoi:hasMeasuredCharacteristic :CA19_9 ,
+                                                 :CKMB ,
+                                                 :FT3 ,
+                                                 :FT4 ,
+                                                 :Insulin ,
+                                                 :Parathyroid_Hormone ,
+                                                 :T3 ,
+                                                 :T4 ,
+                                                 :TSH ;
+                 
+                 rdfs:comment "Immunochemistry" .
+
+
+
+###  http://hadatac.org/ont/chear#Immunoglobulins
+
+:Immunoglobulins rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :InflammationOrImmunityBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Immunometric
+
+:Immunometric rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Assay ;
+              
+              vstoi:hasMeasuredCharacteristic :Anti_HBc ,
+                                              :Anti_HBs ;
+              
+              rdfs:comment "Immunometric" .
+
+
+
+###  http://hadatac.org/ont/chear#Immunoturbidimetric
+
+:Immunoturbidimetric rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :Assay ;
+                     
+                     vstoi:hasMeasuredCharacteristic :Apolipoprotein_CII ,
+                                                     :CRPhs ,
+                                                     :Fructosamine ,
+                                                     :HbA1c ,
+                                                     :Immunoglobulins ,
+                                                     :Microalbumin ;
+                     
+                     rdfs:comment "Immunoturbidimetric" .
+
+
+
+###  http://hadatac.org/ont/chear#InfectiousDiseaseBiomarker
+
+:InfectiousDiseaseBiomarker rdf:type owl:Class ;
+                            
+                            rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#InflammationOrImmunityBiomarker
+
+:InflammationOrImmunityBiomarker rdf:type owl:Class ;
+                                 
+                                 rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Insulin
+
+:Insulin rdf:type owl:Class ;
+         
+         rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#IntellectualQuality
+
+:IntellectualQuality rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf <http://semanticscience.org/resource/SIO_000026> .
+
+
+
+###  http://hadatac.org/ont/chear#Iron
+
+:Iron rdf:type owl:Class ;
+      
+      rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#LC_MS_Instrument
+
+:LC_MS_Instrument rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Mass_Spectrometry_Instrument ;
+                  
+                  vstoi:hasWebDocumentation <http://www.agilent.com/en-us/products/mass-spectrometry/lc-ms-instruments> ;
+                  
+                  rdfs:comment "Agilent’s LC/MS systems deliver excellent and reliable performance for diverse applications ranging from routine QC to cutting-edge research. Our Q-TOF, single quadrupole and triple quadrupole LC/MS instruments benefit from our long history of mass spectrometry and LC/MS expertise." .
+
+
+
+###  http://hadatac.org/ont/chear#LDH
+
+:LDH rdf:type owl:Class ;
+     
+     rdfs:subClassOf :CardiacBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Lead
+
+:Lead rdf:type owl:Class ;
+      
+      rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Lecithin_Cholesterol_Acyltransferase
+
+:Lecithin_Cholesterol_Acyltransferase rdf:type owl:Class ;
+                                      
+                                      rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Lipase
+
+:Lipase rdf:type owl:Class ;
+        
+        rdfs:subClassOf :GastroenterologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#LipidMetabolismBiomarker
+
+:LipidMetabolismBiomarker rdf:type owl:Class ;
+                          
+                          rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Macromolecule
+
+:Macromolecule rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Biomolecule .
+
+
+
+###  http://hadatac.org/ont/chear#Manganese
+
+:Manganese rdf:type owl:Class ;
+           
+           rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#MassSpectrometry
+
+:MassSpectrometry rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Assay ;
+                  
+                  vstoi:hasMeasuredCharacteristic :Phthalate ;
+                  
+                  rdfs:comment "Mass Spectrometry" .
+
+
+
+###  http://hadatac.org/ont/chear#Mass_Spectrometry_Instrument
+
+:Mass_Spectrometry_Instrument rdf:type owl:Class ;
+                              
+                              rdfs:subClassOf vstoi:PhysicalInstrument ;
+                              
+                              vstoi:hasWebDocumentation <http://www.agilent.com/en-us/products/mass-spectrometry> ;
+                              
+                              rdfs:comment "Agilent offers reliable, precision mass spectrometry solutions for a range of industries. We offer a feature-rich portfolio of Gas Chromatography Mass Spectrometry (GC/MS) systems and Liquid Chromatography Mass Spectrometry (LC/MS) systems, embodying over 40 years of expertise and innovation in mass spectrometry." .
+
+
+
+###  http://hadatac.org/ont/chear#Mercury
+
+:Mercury rdf:type owl:Class ;
+         
+         rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Metabolite
+
+:Metabolite rdf:type owl:Class ;
+            
+            rdfs:subClassOf :SmallMolecule .
+
+
+
+###  http://hadatac.org/ont/chear#MetalExposureBiomarker
+
+:MetalExposureBiomarker rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#MicroLC
+
+:MicroLC rdf:type owl:Class ;
+         
+         rdfs:subClassOf :HPLC_product ;
+         
+         vstoi:hasWebDocumentation <http://sciex.com/products/hplc-products/microlc-products> ;
+         
+         rdfs:comment "Confidently increase sensitivity in small volume analysis." .
+
+
+
+###  http://hadatac.org/ont/chear#Microalbumin
+
+:Microalbumin rdf:type owl:Class ;
+              
+              rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Molybdemum
+
+:Molybdemum rdf:type owl:Class ;
+            
+            rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#NAG
+
+:NAG rdf:type owl:Class ;
+     
+     rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#NanoLC
+
+:NanoLC rdf:type owl:Class ;
+        
+        rdfs:subClassOf :HPLC_product ;
+        
+        vstoi:hasWebDocumentation <http://sciex.com/products/hplc-products/nanolc-products> ;
+        
+        rdfs:comment "Developed specifically for nanospray mass spectrometry (MS), our NanoLC systems provide speed, sensitivity, resolution and reliability for your research." .
+
+
+
+###  http://hadatac.org/ont/chear#Nephelometric
+
+:Nephelometric rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Assay ;
+               
+               vstoi:hasMeasuredCharacteristic :Apolipoprotein_AI ,
+                                               :Apolipoprotein_E ;
+               
+               rdfs:comment "Nephelometric" .
+
+
+
+###  http://hadatac.org/ont/chear#NephrologyBiomarker
+
+:NephrologyBiomarker rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#NucleicAcid
+
+:NucleicAcid rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Macromolecule .
+
+
+
+###  http://hadatac.org/ont/chear#OncologyBiomarker
+
+:OncologyBiomarker rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Osteocalcin
+
+:Osteocalcin rdf:type owl:Class ;
+             
+             rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#PCR
+
+:PCR rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Assay ;
+     
+     vstoi:hasMeasuredCharacteristic :Chlamydia_Trachomalis ,
+                                     :Cytomegalovirus ,
+                                     :HLA_A ,
+                                     :HLA_B ,
+                                     :HLA_C ,
+                                     :Hepatitis_C_Genotype ;
+     
+     rdfs:comment "PCR" .
+
+
+
+###  http://hadatac.org/ont/chear#Parathyroid_Hormone
+
+:Parathyroid_Hormone rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :BoneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Phthalate
+
+:Phthalate rdf:type owl:Class ;
+           
+           rdfs:subClassOf :DiabetesBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Pi_GST
+
+:Pi_GST rdf:type owl:Class ;
+        
+        rdfs:subClassOf :NephrologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Placenta_Growth_Factor
+
+:Placenta_Growth_Factor rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#PossibleValue
+
+:PossibleValue rdf:type owl:Class .
+
+
+
+###  http://hadatac.org/ont/chear#Prolactin
+
+:Prolactin rdf:type owl:Class ;
+           
+           rdfs:subClassOf :EndocrinologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Prostate_Specific_Antigen
+
+:Prostate_Specific_Antigen rdf:type owl:Class ;
+                           
+                           rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Protein
+
+:Protein rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Macromolecule .
+
+
+
+###  http://hadatac.org/ont/chear#RIA
+
+:RIA rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Assay ;
+     
+     vstoi:hasMeasuredCharacteristic :Aminoterminal_Propeptide_Type_1_Collagen ,
+                                     :Corticosterone ,
+                                     :Glucagon ,
+                                     :Insulin ,
+                                     :Osteocalcin ;
+     
+     rdfs:comment "RIA" .
+
+
+
+###  http://hadatac.org/ont/chear#RNA
+
+:RNA rdf:type owl:Class ;
+     
+     rdfs:subClassOf :NucleicAcid .
+
+
+
+###  http://hadatac.org/ont/chear#RNP
+
+:RNP rdf:type owl:Class ;
+     
+     rdfs:subClassOf :AutoimmuneDiseaseBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#RT_PCR
+
+:RT_PCR rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Assay ;
+        
+        vstoi:hasMeasuredCharacteristic :HIV_Viral_Load ,
+                                        :Hepatitis_C_Viral_Load ;
+        
+        rdfs:comment "RT_PCR" .
+
+
+
+###  http://hadatac.org/ont/chear#Selenium
+
+:Selenium rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#SerumAlbumin
+
+:SerumAlbumin rdf:type owl:Class ;
+              
+              rdfs:subClassOf :BloodFluid .
+
+
+
+###  http://hadatac.org/ont/chear#SmallMolecule
+
+:SmallMolecule rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Biomolecule .
+
+
+
+###  http://hadatac.org/ont/chear#Standard_Flow_LC
+
+:Standard_Flow_LC rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :HPLC_product ;
+                  
+                  vstoi:hasWebDocumentation <http://sciex.com/products/hplc-products/standard-flow-lc> ;
+                  
+                  rdfs:comment "Designed specifically for use with our mass spectrometers, our ExionLC systems provide speed, sensitivity, resolution, and reliability for your routine or complex LC-MS/MS analysis." .
+
+
+
+###  http://hadatac.org/ont/chear#T3
+
+:T3 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#T4
+
+:T4 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#TPO
+
+:TPO rdf:type owl:Class ;
+     
+     rdfs:subClassOf :AutoimmuneDiseaseBiomarker ,
+                     :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#TSH
+
+:TSH rdf:type owl:Class ;
+     
+     rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#Thallium
+
+:Thallium rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Thyroglobulin
+
+:Thyroglobulin rdf:type owl:Class ;
+               
+               rdfs:subClassOf :ThyroidBioMarker .
+
+
+
+###  http://hadatac.org/ont/chear#ThyroidBioMarker
+
+:ThyroidBioMarker rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Biomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Tin
+
+:Tin rdf:type owl:Class ;
+     
+     rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Triglycerides
+
+:Triglycerides rdf:type owl:Class ;
+               
+               rdfs:subClassOf :LipidMetabolismBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Tungsten
+
+:Tungsten rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Urine
+
+:Urine rdf:type owl:Class ;
+       
+       rdfs:subClassOf <http://semanticscience.org/resource/SIO_010051> .
+
+
+
+###  http://hadatac.org/ont/chear#Vascular_Endothelial_Growth_Factor
+
+:Vascular_Endothelial_Growth_Factor rdf:type owl:Class ;
+                                    
+                                    rdfs:subClassOf :OncologyBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#Vitamin_B12
+
+:Vitamin_B12 rdf:type owl:Class ;
+             
+             rdfs:subClassOf :AnemiaBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#WholeBlood
+
+:WholeBlood rdf:type owl:Class ;
+            
+            rdfs:subClassOf :BloodFluid .
+
+
+
+###  http://hadatac.org/ont/chear#Zinc
+
+:Zinc rdf:type owl:Class ;
+      
+      rdfs:subClassOf :MetalExposureBiomarker .
+
+
+
+###  http://hadatac.org/ont/chear#dsDNA
+
+:dsDNA rdf:type owl:Class ;
+       
+       rdfs:subClassOf :AutoimmuneDiseaseBiomarker .
+
+
+
+###  http://sementicscience.org/resource/SIO_000498
+
+sio:SIO_000498 rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi
+
