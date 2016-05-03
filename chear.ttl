@@ -189,6 +189,15 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                    rdfs:range xsd:integer .
 
 
+###  http://hadatac.org/ont/chear#AgeInYears
+
+:AgeInYears rdf:type owl:DatatypeProperty ;
+
+                   rdfs:domain sio:SIO_000498 ;
+
+                   rdfs:range xsd:integer .
+
+
 
 ###  http://hadatac.org/ont/chear#mothersEducationBasedOnClinicalChart
 
@@ -247,6 +256,26 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                               rdfs:domain sio:SIO_000498 ;
                               
                               rdfs:range xsd:integer .
+
+
+
+###  http://hadatac.org/ont/chear#numberOfSedentaryHours
+
+:numberOfSedentaryHours rdf:type owl:DatatypeProperty ;
+
+                              rdfs:domain sio:SIO_000498 ;
+
+                              rdfs:range xsd:integer .
+
+
+###  http://hadatac.org/ont/chear#hasAppliance
+
+:hasAppliance rdf:type owl:DatatypeProperty ;
+
+                              rdfs:domain sio:SIO_000498 ;
+
+                              rdfs:range xsd:string .
+
 
 
 
