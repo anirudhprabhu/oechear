@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY dct "http://purl.org/dc/terms/" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY time "http://www.w3.org/2006/time#" >
+    <!ENTITY prov "http://www.w3.org/ns/prov#" >
+
+    <!ENTITY chear "http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/" >
+]>
+
+<rdf:RDF
+     xml:base="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/"
+     xmlns:chear="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:time="http://www.w3.org/2006/time#">
+
+    <owl:Ontology rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/">
+        <owl:versionIRI rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/1.0.0/"/>
+        <dct:publisher xml:lang="en">CHEAR Group</dct:publisher>
+        <dct:modified xml:lang="en">2016-04-29</dct:modified>
+        <owl:priorVersion>http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_11_CHEAR_GROUP/1.0.0/</owl:priorVersion>
+        <dct:rights rdfs:resource="http://opensource.org/licenses/mit-license.php"/>
+        <dct:license rdfs:resource="http://opensource.org/licenses/mit-license.php"/>
+        <skos:note>See the maintenance policies at https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/maintenance</skos:note>
+        <rdfs:label>CHEAR Group Base Ontology</rdfs:label>
+        <dct:contributor xml:lang="en">Liu, Yue (Robin)</dct:contributor>
+        <dct:contributor xml:lang="en">Liang, Zhicheng (Jason)</dct:contributor>
+        <dct:contributor xml:lang="en">Prabhu, Anirudh</dct:contributor>
+        <dct:contributor xml:lang="en">Sheehan, John</dct:contributor>
+        <skos:changeNote>Added the MIT license to our ontology headers; Fixed the problems in our ontology headers according to the feedback we got from the instructors.</skos:changeNote>
+        <dct:abstract xml:lang="en">The purpose of this use case is to develop an ontology to compare and contrast two studies with one goal of determining how study results might meaningfully be combined. One examined relationships between different body size measurements and asthma in ethnic minority children[1], while the other examined the association between prenatal and postnatal maternal stress and wheeze in 417 children enrolled in a prospective birth cohort in Mexico City.</dct:abstract>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov"/>
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/format"/>
+
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+
+
+
+    <!-- http://purl.org/dc/terms/references -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/references"/>
+
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/subject"/>
+
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/type"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#changeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#changeNote"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#historyNote"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/calculatedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/calculatedFrom">
+        <dct:source>http://www.merriam-webster.com/dictionary/calculate</dct:source>
+        <skos:definition>worked out by mathematical calculation involving</skos:definition>
+        <skos:prefLabel>calculatedFrom</skos:prefLabel>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/conduct -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/conduct">
+        <dct:source>http://www.merriam-webster.com/dictionary/conduct</dct:source>
+        <skos:definition>the way that something is managed or directed</skos:definition>
+        <skos:prefLabel>conduct</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/StudyPerson"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Study"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/estimate -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/estimate">
+        <dct:source>http://www.merriam-webster.com/dictionary/estimate</dct:source>
+        <skos:definition>to give or form a general idea about the value, size, or cost of (something)</skos:definition>
+        <skos:prefLabel>estimate</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Instrument"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyMeasure"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasContent -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasContent">
+        <dct:source>http://www.merriam-webster.com/dictionary/content</dct:source>
+        <skos:definition>has the topics or matter treated in a written work</skos:definition>
+        <skos:prefLabel>hasContent</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/AsthmaActionPlan"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Zone"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasDisease -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasDisease">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>a particular type of disease that the bearer person has</skos:definition>
+        <skos:prefLabel>hasDisease</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasLiteral -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasLiteral">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>a particular type of literal that the bearer person has</skos:definition>
+        <skos:prefLabel>hasLiteral</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SurveyData"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasPositiveRelation -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasPositiveRelation">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>has a direct relationship between two variables in which as one increases, the other can be expected to increase.</skos:definition>
+        <skos:prefLabel>hasPositiveRelationWith</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyMeasure"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasProfile -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasProfile">
+        <dct:source>http://www.merriam-webster.com/dictionary/profile</dct:source>
+        <skos:definition>A summary, brief account, or record that the bearer person has</skos:definition>
+        <skos:prefLabel>hasProfile</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SurveyData"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasResource -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasResource">
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Study"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>http://www.merriam-webster.com/dictionary/resource</dct:source>
+        <skos:definition>a particular type of resource that the bearer entity has</skos:definition>
+        <skos:prefLabel>hasResource</skos:prefLabel>
+
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasResponse -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasResponse">
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSubject"/>
+        <dct:source>http://www.merriam-webster.com/dictionary/response</dct:source>
+        <skos:definition>a particular type of response that the bearer entity has</skos:definition>
+        <skos:prefLabel>hasResponse</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Response"/>
+
+
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSideEffect -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSideEffect">
+        <dct:source>http://www.merriam-webster.com/dictionary/side%20effect</dct:source>
+        <skos:definition>a particular type of secondary and usually adverse effect that the bearer person has</skos:definition>
+        <skos:prefLabel>hasSideEffect</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disorder"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSubject">
+        <dct:source>http://www.merriam-webster.com/dictionary/subject</dct:source>
+        <skos:definition>a particular type of topic that the bearer entity is about</skos:definition>
+        <skos:prefLabel>hasSubject</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSymptom">
+        <dct:source>http://www.merriam-webster.com/dictionary/symptom</dct:source>
+        <skos:definition>a particular type of subjective evidence of disease that the bearer person has</skos:definition>
+        <skos:prefLabel>hasSymptom</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/measuredBy -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/measuredBy">
+        <owl:inverseOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/measures"/>
+        <dct:source>http://www.merriam-webster.com/dictionary/measure</dct:source>
+        <skos:definition>the entity used to find out the size, length, or amount of (something)</skos:definition>
+        <skos:prefLabel>measuredBy</skos:prefLabel>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/measures -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/measures">
+        <dct:source>http://www.merriam-webster.com/dictionary/measure</dct:source>
+        <skos:definition>to find out the size, length, or amount of (something)</skos:definition>
+        <skos:prefLabel>measures</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Instrument"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyMeasure"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/use -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/use">
+        <dct:source>http://www.merriam-webster.com/dictionary/use</dct:source>
+        <skos:definition>to do something with (an object, machine, person, method, etc.) in order to accomplish a task.</skos:definition>
+        <skos:prefLabel>use</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Instrument"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.w3.org/2006/time#after -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#after">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2006/time#before"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.w3.org/2006/time#before -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#before"/>
+
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.w3.org/2006/time#months -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#months">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DurationDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.w3.org/2006/time#weeks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#weeks">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DurationDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Age -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Age">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:definition>the amount of time during which a person or animal has lived</skos:definition>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C25150</rdfs:isDefinedBy>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C25150</dct:source>
+        <skos:prefLabel>age</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Appliance -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Appliance">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:prefLabel>appliance</skos:prefLabel>
+        <skos:definition>household machines, using electricity or some other energy input.</skos:definition>
+        <dct:source>https://en.wikipedia.org/wiki/Appliance</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ApplianceQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ApplianceQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about appliance</skos:definition>
+        <skos:prefLabel>applianceQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Asthma -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Asthma">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryInfection"/>
+        <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/195967001</dct:source>
+        <skos:altLabel>hyperreactiveAirwayDisease</skos:altLabel>
+        <skos:definition>A chronic respiratory disease manifested as difficulty breathing due to the narrowing of bronchial passageways.</skos:definition>
+        <skos:prefLabel>asthma</skos:prefLabel>
+        <skos:altLabel>airwayHyperreactivity</skos:altLabel>
+        <rdfs:isDefinedBy>http://purl.bioontology.org/ontology/SNOMEDCT/195967001</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Authority -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Authority">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:definition>A person or group of people having the power or right to control, judge, or prohibit the actions of others.</skos:definition>
+        <dct:source>http://www.dictionary.com/browse/authority</dct:source>
+        <skos:prefLabel>authority</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BigHouse -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BigHouse">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+        <skos:definition>house that is big.</skos:definition>
+        <skos:prefLabel>bigHouse</skos:prefLabel>
+        <dct:source>CHEAR Group</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Career -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Career">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <dct:source>https://en.wikipedia.org/wiki/Career</dct:source>
+        <skos:prefLabel>career</skos:prefLabel>
+        <skos:definition>An individual&apos;s journey through learning, work and other aspects of life.</skos:definition>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ChestTightness -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ChestTightness">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem"/>
+        <dct:source>http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10008492</dct:source>
+        <skos:definition>An unpleasant sensation of tightness, heaviness or pressure in the chest.</skos:definition>
+        <skos:prefLabel>chestTightness</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Cough -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Cough">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem"/>
+        <skos:prefLabel>cough</skos:prefLabel>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C37935</dct:source>
+        <skos:definition>A sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs, and usually accompanied by a distinctive sound.</skos:definition>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C37935</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DemographicQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DemographicQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about demography</skos:definition>
+        <skos:prefLabel>demographicQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DryCough -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DryCough">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Cough"/>
+        <skos:prefLabel>dryCough</skos:prefLabel>
+        <dct:source>http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F11833005</dct:source>
+        <skos:definition>A cough not accompanied by phlegm production.</skos:definition>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevel -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevel">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocioeconomicStatus"/>
+        <skos:definition>An indication of the years of schooling completed in graded public, private, or parochial schools, and in colleges, universities, or professional schools.</skos:definition>
+        <skos:scopeNote>Demographic Data for Children</skos:scopeNote>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17953</dct:source>
+        <skos:prefLabel>educationLevel</skos:prefLabel>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17953</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevelQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevelQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about education level</skos:definition>
+        <skos:prefLabel>educationLevelQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <dct:source>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3267869/</dct:source>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17941</rdfs:isDefinedBy>
+        <skos:definition>The act of subjecting someone or something to an influencing experience.</skos:definition>
+        <skos:example>Exposure to cigarette smoke</skos:example>
+        <skos:prefLabel>exposure</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExposureQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExposureQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about exposure</skos:definition>
+        <skos:prefLabel>exposureQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Gender -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Gender">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:prefLabel>gender</skos:prefLabel>
+        <dct:source>http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F263495000</dct:source>
+        <skos:definition>the state of being male or female.</skos:definition>
+        <skos:scopeNote>Gender info of participant</skos:scopeNote>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F263495000</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/GenderQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/GenderQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about gender</skos:definition>
+        <skos:prefLabel>genderQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about health-related issues</skos:definition>
+        <skos:prefLabel>healthRelatedQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HighIncome -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HighIncome">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income"/>
+        <skos:definition>Income higher than the threshold mentioned in the study</skos:definition>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:prefLabel>highIncome</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:definition>a building in which people live</skos:definition>
+        <skos:prefLabel>house</skos:prefLabel>
+        <dct:source>https://simple.wikipedia.org/wiki/House</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocioeconomicStatus"/>
+        <skos:prefLabel>income</skos:prefLabel>
+        <skos:definition>money received, especially on a regular basis, for work or through investments.</skos:definition>
+        <dct:source>https://en.wikipedia.org/wiki/Income</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/IncomeQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/IncomeQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about income</skos:definition>
+        <skos:prefLabel>incomeQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Legal -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Legal">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:definition>Allowable or enforceable by being in conformity with the law of the land and the public policy.</skos:definition>
+        <skos:prefLabel>legal</skos:prefLabel>
+        <dct:source>http://www.businessdictionary.com/definition/legal.html</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LifestyleQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LifestyleQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about life style</skos:definition>
+        <skos:prefLabel>lifestyleQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LowIncome -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LowIncome">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income"/>
+        <skos:prefLabel>lowIncome</skos:prefLabel>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Income lower than the threshold mentioned in the study</skos:definition>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalHistoryQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalHistoryQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about medical history</skos:definition>
+        <skos:prefLabel>medicalHistoryQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:definition>any physiologic, mental or psychological condition or disorder</skos:definition>
+        <skos:prefLabel>medicalIssue</skos:prefLabel>
+        <dct:source>https://en.wikipedia.org/wiki/Disease</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MediumIncome -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MediumIncome">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:prefLabel>mediumIncome</skos:prefLabel>
+        <skos:definition>Income between the low and high thresholds mentioned in the study</skos:definition>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafety -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafety">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:prefLabel>neighborhoodSafety</skos:prefLabel>
+        <skos:definition>a questionnaire to assess the respondent&apos;s perceptions about safety and crime in their neighborhoods.</skos:definition>
+        <dct:source>https://www.phenxtoolkit.org/index.php?pageLink=browse.protocols&amp;id=210900</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafetyQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafetyQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about neighborhood safety</skos:definition>
+        <skos:prefLabel>neighborhoodSafetyQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NightCough -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NightCough">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Cough"/>
+        <skos:definition>A cough, or tussis, that occurs primarily at night, typically when you are lying down (postural cough).</skos:definition>
+        <dct:source>http://www.healthgrades.com/symptoms/night-cough</dct:source>
+        <skos:prefLabel>nightCough</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NumberofSedentaryHours -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NumberofSedentaryHours">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivityQuestion"/>
+        <dct:source>http://www.hindawi.com/journals/jobe/2011/517417/</dct:source>
+        <rdfs:isDefinedBy>https://en.wikipedia.org/wiki/Sedentary_lifestyle</rdfs:isDefinedBy>
+        <skos:definition>Number of hours a person spends without physical activity</skos:definition>
+        <skos:prefLabel>numberOfSedentaryHours</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PassiveSmoking -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PassiveSmoking">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <skos:altLabel>secondHandSmoking</skos:altLabel>
+        <skos:note>Used for answering questions about Passive Smoking in the survey</skos:note>
+        <rdfs:isDefinedBy>https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=passive%20smoking</rdfs:isDefinedBy>
+        <skos:prefLabel>passiveSmoking</skos:prefLabel>
+        <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
+        <dct:source>http://www.ncbi.nlm.nih.gov/pubmed/26822280</dct:source>
+    </owl:Class>
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivity -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivity">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:prefLabel>physicalActivity</skos:prefLabel>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</rdfs:isDefinedBy>
+        <skos:definition>Any form of exercise or movement. Physical activity may include planned activity such as walking, running, basketball, or other sports. Physical activity may also include other daily activities such as household chores, yard work, walking the dog, etc.</skos:definition>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivityQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivityQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about physical activity</skos:definition>
+        <skos:prefLabel>physicalActivityQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PostnatalETSExposure -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PostnatalETSExposure">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <skos:definition>Exposure to tobacco smoke occurring after birth, especially during the period immediately after birth.</skos:definition>
+        <skos:prefLabel>postnatalEnvironmentalTobaccoSmokeExposure</skos:prefLabel>
+        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Prejudice -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Prejudice">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <dct:source>https://en.wikipedia.org/wiki/Prejudice</dct:source>
+        <skos:definition>preconceived opinion that is not based on reason or actual experience.</skos:definition>
+        <skos:prefLabel>prejudice</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PrenatalETSExposure -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PrenatalETSExposure">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
+        <skos:prefLabel>prenatalEnvironmentalTobaccoSmokeExposure</skos:prefLabel>
+        <skos:definition>Exposure to tobacco smoke occurring when a woman is pregnant.</skos:definition>
+    </owl:Class>
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LifestyleQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for psychosocial information</skos:definition>
+        <skos:prefLabel>psychosocialQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialStressScore -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialStressScore">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyCompositionCalculation"/>
+        <skos:prefLabel>psychosocialStressScore</skos:prefLabel>
+        <rdfs:isDefinedBy>http://www.ebi.ac.uk/efo/EFO_0006783</rdfs:isDefinedBy>
+        <skos:definition>The quantification of psychosocial stress factors such as financial strain, marital problems, work-related difficulties or health problems, usually assessed through self-reporting via standardised questionnaires.</skos:definition>
+        <dct:source>http://www.ebi.ac.uk/efo/EFO_0006783</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasResponse"/>
+                <owl:someValuesFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Response"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasSubject"/>
+                <owl:someValuesFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C41116</rdfs:isDefinedBy>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C41116</dct:source>
+        <skos:definition>A sentence of inquiry that asks for a reply; a request for information (e.g., a formal request to a database or search engine).</skos:definition>
+        <skos:prefLabel>question</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Race -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Race">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <skos:prefLabel>race</skos:prefLabel>
+        <skos:definition>An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution.</skos:definition>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17049</dct:source>
+        <skos:altLabel>racialGroup</skos:altLabel>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17049</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DemographicQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about race</skos:definition>
+        <skos:prefLabel>raceQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+        <dct:source>http://www.ncbi.nlm.nih.gov/mesh/68012141</dct:source>
+        <skos:prefLabel>respiratoryProblem</skos:prefLabel>
+        <skos:definition>Invasion of the host respiratory system by microorganisms, usually leading to pathological processes or diseases.</skos:definition>
+        <rdfs:isDefinedBy>http://www.ncbi.nlm.nih.gov/mesh/68012141</rdfs:isDefinedBy>
+    </owl:Class>
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ShortnessOfBreath -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ShortnessOfBreath">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem"/>
+        <skos:definition>An uncomfortable sensation of difficulty breathing. It may present as an acute or chronic sign of an underlying respiratory or heart disorder.</skos:definition>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C2998</dct:source>
+        <skos:prefLabel>dyspnea</skos:prefLabel>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C2998</rdfs:isDefinedBy>
+        <skos:altLabel>breathingDifficulties</skos:altLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmallHouse -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmallHouse">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+        <skos:definition>house that is small.</skos:definition>
+        <skos:prefLabel>smallHouse</skos:prefLabel>
+        <dct:source>CHEAR Group</dct:source>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExposureQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about smoking exposure</skos:definition>
+        <skos:prefLabel>smokingQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for information about social economic</skos:definition>
+        <skos:prefLabel>socialEconomicQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocioeconomicStatus -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocioeconomicStatus">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject"/>
+        <dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</rdfs:isDefinedBy>
+        <skos:altLabel>materialWealth</skos:altLabel>
+        <skos:altLabel>socioeconomicFactors</skos:altLabel>
+        <skos:definition>The combination of one&apos;s social class and income level. Includes socioeconomic differences between individuals or groups.</skos:definition>
+        <skos:prefLabel>socioeconomicStatus</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/StressQuestion -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/StressQuestion">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialQuestion"/>
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Question that asks for stress information</skos:definition>
+        <skos:prefLabel>stressQuestion</skos:prefLabel>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Subject">
+        <dct:source>https://www.vocabulary.com/dictionary/subject</dct:source>
+        <skos:definition>Some matter, situation, or event that is thought about, written about, or discussed.</skos:definition>
+        <skos:prefLabel>subject</skos:prefLabel>
+    </owl:Class>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom">
+        <dct:source>http://bioportal.bioontology.org/ontologies/EXO?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FExO_0000080</dct:source>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/EXO?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FExO_0000080</rdfs:isDefinedBy>
+        <skos:definition>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</skos:definition>
+        <skos:prefLabel>symptom</skos:prefLabel>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Wheezing -->
+
+    <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Wheezing">
+        <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem"/>
+        <skos:prefLabel>wheezing</skos:prefLabel>
+        <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/56018004</dct:source>
+        <rdfs:isDefinedBy>http://purl.bioontology.org/ontology/SNOMEDCT/56018004</rdfs:isDefinedBy>
+        <skos:definition>A symptom and a finding during physical examination, characterized by a high-pitched, whistling sound during breathing. It results from the narrowing or obstruction of the respiratory airways. The most common causes of wheezing are asthma, chronic obstructive pulmonary disease, tracheobronchitis, and pulmonary edema.</skos:definition>
+    </owl:Class>
+
+
+
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <dct:source>http://www.w3.org/2002/07/owl#Thing</dct:source>
+        <rdfs:isDefinedBy>http://www.w3.org/2002/07/owl#Thing</rdfs:isDefinedBy>
+        <skos:definition>the top class in an ontology, under which every concept fits</skos:definition>
+        <skos:prefLabel>thing</skos:prefLabel>
+    </rdf:Description>
+
+
+
+    <!-- http://www.w3.org/2006/time#DurationDescription -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DurationDescription"/>
+
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant"/>
+
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
