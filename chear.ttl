@@ -66,6 +66,12 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 
 
+###  http://hadatac.org/ont/chear#symptom
+
+:exposure rdf:type owl:ObjectProperty .
+
+
+
 ###  http://hadatac.org/ont/chear#hasDataset
 
 :hasDataset rdf:type owl:ObjectProperty ;
@@ -228,6 +234,55 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 :mediumIncome rdf:type owl:ObjectProperty ;
 
               rdfs:subPropertyOf :income .
+			  
+			  
+###  http://hadatac.org/ont/chear#respiratoryProblem
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#chestTightness
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#cough
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#dryCough
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#nightCough
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#dyspnea
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .
+
+
+###  http://hadatac.org/ont/chear#wheezing
+
+:postNatalETSExposure rdf:type owl:ObjectProperty ;
+
+                      rdfs:subPropertyOf :symptom .							  
 
 
 #################################################################
