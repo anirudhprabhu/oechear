@@ -62,7 +62,7 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 ###  http://hadatac.org/ont/chear#exposure
 
-:exposure rdf:type owl:ObjectProperty ;
+:exposure rdf:type owl:ObjectProperty .
 
 
 
@@ -113,23 +113,121 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 :postNatalETSExposure rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf :exposure .
+                      rdfs:subPropertyOf :exposure .
+
+
 
 ###  http://hadatac.org/ont/chear#preNatalETSExposure
 
 :preNatalETSExposure rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf :exposure .
+                     rdfs:subPropertyOf :exposure .
+
 
 
 ###  http://hadatac.org/ont/chear#passiveSmoking
 
 :passiveSmoking rdf:type owl:ObjectProperty ;
 
-                           rdfs:subPropertyOf :exposure .
+                rdfs:subPropertyOf :exposure .
 
 
 
+###  http://hadatac.org/ont/chear#house
+
+:house rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#bigHouse
+
+:bigHouse rdf:type owl:ObjectProperty ;
+
+          rdfs:subPropertyOf :house .
+          
+          
+          
+###  http://hadatac.org/ont/chear#smallHouse
+
+:smallHouse rdf:type owl:ObjectProperty ;
+
+            rdfs:subPropertyOf :house .
+            
+            
+            
+###  http://hadatac.org/ont/chear#legal
+
+:legal rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#medicalIssue
+
+:medicalIssue rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#neighbourhoodSafety
+
+:neighbourhoodSafety rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#physicalActivity
+
+:physicalActivity rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#prejudice
+
+:prejudice rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#socioeconomicStatus
+
+:socioeconomicStatus rdf:type owl:ObjectProperty .
+
+
+
+###  http://hadatac.org/ont/chear#educationLevel
+
+:educationLevel rdf:type owl:ObjectProperty ;
+
+                rdfs:subPropertyOf :socioeconomicStatus .
+                
+
+
+###  http://hadatac.org/ont/chear#income
+
+:income rdf:type owl:ObjectProperty ;
+
+        rdfs:subPropertyOf :socioeconomicStatus .
+        
+        
+        
+###  http://hadatac.org/ont/chear#highIncome
+
+:highIncome rdf:type owl:ObjectProperty ;
+
+            rdfs:subPropertyOf :income .
+            
+            
+            
+###  http://hadatac.org/ont/chear#lowIncome
+
+:lowIncome rdf:type owl:ObjectProperty ;
+
+           rdfs:subPropertyOf :income .
+           
+           
+           
+###  http://hadatac.org/ont/chear#mediumIncome
+
+:mediumIncome rdf:type owl:ObjectProperty ;
+
+              rdfs:subPropertyOf :income .
 
 
 #################################################################
@@ -214,6 +312,7 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                    rdfs:range xsd:integer .
 
 
+
 ###  http://hadatac.org/ont/chear#AgeInYears
 
 :AgeInYears rdf:type owl:DatatypeProperty ;
@@ -264,9 +363,21 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 
 
+###  http://hadatac.org/ont/chear#gender
+
+:gender rdf:type owl:DatatypeProperty ;
+               
+        rdfs:domain sio:SIO_000498 ;
+               
+        rdfs:range xsd:string .
+               
+
+
 ###  http://hadatac.org/ont/chear#newbornGender
 
 :newbornGender rdf:type owl:DatatypeProperty ;
+
+               rdfs:subPropertyOf :gender ;
                
                rdfs:domain sio:SIO_000498 ;
                
@@ -288,19 +399,39 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 
 :numberOfSedentaryHours rdf:type owl:DatatypeProperty ;
 
-                              rdfs:domain sio:SIO_000498 ;
+                        rdfs:domain sio:SIO_000498 ;
 
-                              rdfs:range xsd:integer .
+                        rdfs:range xsd:integer .
+
 
 
 ###  http://hadatac.org/ont/chear#hasAppliance
 
 :hasAppliance rdf:type owl:DatatypeProperty ;
 
-                              rdfs:domain sio:SIO_000498 ;
+              rdfs:domain sio:SIO_000498 ;
 
-                              rdfs:range xsd:string .
+              rdfs:range xsd:string .
 
+
+
+###  http://hadatac.org/ont/chear#hasAuthority
+
+:hasAuthority rdf:type owl:DatatypeProperty ;
+
+              rdfs:domain sio:SIO_000498 ;
+
+              rdfs:range xsd:string .
+              
+              
+              
+###  http://hadatac.org/ont/chear#hasCareer
+
+:hasCareer rdf:type owl:DatatypeProperty ;
+
+           rdfs:domain sio:SIO_000498 ;
+
+           rdfs:range xsd:string .
 
 
 
