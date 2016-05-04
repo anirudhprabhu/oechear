@@ -51,6 +51,14 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
 #################################################################
 
 
+###  http://hadatac.org/ont/chear#race
+
+:race rdf:type owl:ObjectProperty ;
+                                              
+                rdfs:domain sio:SIO_000498 ;
+                                              
+###             rdfs:range :notsure .
+
 ###  http://hadatac.org/ont/chear#hasAttributeReference
 
 :hasAttributeReference rdf:type owl:ObjectProperty ;
@@ -325,7 +333,6 @@ vstoi:hasWebDocumentation rdf:type owl:AnnotationProperty .
                                               rdfs:domain sio:SIO_000498 ;
                                               
                                               rdfs:range xsd:string .
-
 
 
 ###  http://hadatac.org/ont/chear#hasReference
