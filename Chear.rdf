@@ -315,7 +315,122 @@
 	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
         <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Appliance"/>
     </owl:ObjectProperty>
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/house -->
 
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/house">
+        <dct:source>CHEAR Group</dct:source>
+        skos:prefLabel>house</skos:prefLabel>
+        <skos:definition>a building in which people live</skos:definition>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/bigHouse -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/bigHouse">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>house that is big</skos:definition>
+        <skos:prefLabel>bigHouse</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/house"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/smallHouse -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/smallHouse">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>house that is small</skos:definition>
+        <skos:prefLabel>smallHouse</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/house"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/medicalIssue -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/medicalIssue">
+        <dct:source>https://en.wikipedia.org/wiki/Disease</dct:source>
+        <skos:definition>any physiologic, mental or psychological condition or disorder</skos:definition>
+        <skos:prefLabel>medicalIssue</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/neighbourhoodSafety -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/neighbourhoodSafety">
+        <dct:source>https://www.phenxtoolkit.org/index.php?pageLink=browse.protocols&amp;id=210900</dct:source>
+        <skos:definition>a questionnaire to assess the respondent's perceptions about safety and crime in their neighborhoods</skos:definition>
+        <skos:prefLabel>neighborhoodSafety</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafety"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/physicalActivity -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/physicalActivity">
+        <skos:prefLabel>physicalActivity</skos:prefLabel>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</rdfs:isDefinedBy>
+        <skos:definition>Any form of exercise or movement. Physical activity may include planned activity such as walking, running, basketball, or other sports. Physical activity may also include other daily activities such as household chores, yard work, walking the dog, etc.</skos:definition>
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</dct:source>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivity"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/prejudice -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/prejudice">
+        <dct:source>https://en.wikipedia.org/wiki/Prejudice</dct:source>
+        <skos:definition>preconceived opinion that is not based on reason or actual experience.</skos:definition>
+        <skos:prefLabel>prejudice</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Prejudice"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/race -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/race">
+    	<dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
+        <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</rdfs:isDefinedBy>
+        <skos:altLabel>materialWealth</skos:altLabel>
+        <skos:altLabel>socioeconomicFactors</skos:altLabel>
+        <skos:definition>The combination of one&apos;s social class and income level. Includes socioeconomic differences between individuals or groups.</skos:definition>
+        <skos:prefLabel>socioeconomicStatus</skos:prefLabel>
+        <rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Race"/>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/socioeconomicStatus -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/socioeconomicStatus">
+        <dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
+        <skos:definition>The combination of one&apos;s social class and income level. Includes socioeconomic differences between individuals or groups.</skos:definition>
+        <skos:prefLabel>prejudice</skos:prefLabel>
+        <skos:altLabel>materialWealth</skos:altLabel>
+        <skos:altLabel>socioeconomicFactors</skos:altLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Prejudice"/>
+    </owl:ObjectProperty>
+    
 
 
     <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasLiteral -->
@@ -523,7 +638,27 @@
     </owl:DatatypeProperty>
 
 
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/gender -->
+
+    <owl:DatatypeProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/gender">
+        <skos:definition>the state of being male or female</skos:definition>
+        <rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2001/XMLSchema#boolean"/>
+        <skos:prefLabel>gender</skos:prefLabel>
+    </owl:DatatypeProperty>
     
+    
+    
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/income -->
+
+    <owl:DatatypeProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/income">
+        <skos:prefLabel>income</skos:prefLabel>
+        <skos:definition>money received, especially on a regular basis, for work or through investments.</skos:definition>
+        <dct:source>https://en.wikipedia.org/wiki/Income</dct:source>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
 
 
     <!-- 
