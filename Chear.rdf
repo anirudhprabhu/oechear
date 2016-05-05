@@ -261,9 +261,9 @@
         <rdfs:range rdf:resource="&chear;Disease"/>
     </owl:ObjectProperty>
 
-    <!-- &chear;exposure -->
+    <!-- &chear;isExposedTo -->
 
-    <owl:ObjectProperty rdf:about="&chear;exposure">
+    <owl:ObjectProperty rdf:about="&chear;isExposedTo">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>The act of subjecting someone or something to an influencing experience.</skos:definition>
         <skos:prefLabel>exposure</skos:prefLabel>
@@ -271,9 +271,9 @@
         <rdfs:range rdf:resource="&chear;Exposure"/>
     </owl:ObjectProperty>
 
-    <!-- &chear;prenatalETSExposure -->
+    <!-- &chear;hasPrenatalETSExposure -->
 
-    <owl:ObjectProperty rdf:about="&chear;prenatalETSExposure">
+    <owl:ObjectProperty rdf:about="&chear;hasPrenatalETSExposure">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>Exposure to tobacco smoke occurring when a woman is pregnant.</skos:definition>
         <skos:prefLabel>prenatalETSExposure</skos:prefLabel>
@@ -282,9 +282,9 @@
         <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
     </owl:ObjectProperty>
 
-    <!-- &chear;postnatalETSExposure -->
+    <!-- &chear;hasPostnatalETSExposure -->
 
-    <owl:ObjectProperty rdf:about="&chear;postnatalETSExposure">
+    <owl:ObjectProperty rdf:about="&chear;hasPostnatalETSExposure">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>Exposure to tobacco smoke occurring after birth, especially during the period immediately after birth.</skos:definition>
         <skos:prefLabel>postnatalETSExposure</skos:prefLabel>
@@ -293,9 +293,9 @@
         <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
     </owl:ObjectProperty>
 
-    <!-- &chear;passiveSmoking -->
+    <!-- &chear;isExposedToPassiveSmoking -->
 
-    <owl:ObjectProperty rdf:about="&chear;passiveSmoking">
+    <owl:ObjectProperty rdf:about="&chear;isExposedToPassiveSmoking">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
         <skos:note>Used for answering questions about Passive Smoking in the survey</skos:note>
@@ -305,9 +305,9 @@
         <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
     </owl:ObjectProperty>
 
-    <!-- &chear;appliance -->
+    <!-- &chear;hasAppliance -->
 
-    <owl:ObjectProperty rdf:about="&chear;appliance">
+    <owl:ObjectProperty rdf:about="&chear;hasAppliance">
         <dct:source>CHEAR Group</dct:source>
         <skos:prefLabel>appliance</skos:prefLabel>
         <skos:definition>household machines, using electricity or some other energy input.</skos:definition>
@@ -316,9 +316,9 @@
     </owl:ObjectProperty>
 
 
-    <!-- &chear;house -->
+    <!-- &chear;hasHouse -->
 
-    <owl:ObjectProperty rdf:about="&chear;house">
+    <owl:ObjectProperty rdf:about="&chear;hasHouse">
         <dct:source>CHEAR Group</dct:source>
         <skos:prefLabel>house</skos:prefLabel>
         <skos:definition>a building in which people live</skos:definition>
@@ -328,9 +328,9 @@
 
 
 
-    <!-- &chear;bigHouse -->
+    <!-- &chear;hasBigHouse -->
 
-    <owl:ObjectProperty rdf:about="&chear;bigHouse">
+    <owl:ObjectProperty rdf:about="&chear;hasBigHouse">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>house that is big</skos:definition>
         <skos:prefLabel>bigHouse</skos:prefLabel>
@@ -341,9 +341,9 @@
 
 
 
-    <!-- &chear;smallHouse -->
+    <!-- &chear;hasSmallHouse -->
 
-    <owl:ObjectProperty rdf:about="&chear;smallHouse">
+    <owl:ObjectProperty rdf:about="&chear;hasSmallHouse">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>house that is small</skos:definition>
         <skos:prefLabel>smallHouse</skos:prefLabel>
@@ -354,9 +354,9 @@
 
 
 
-    <!-- &chear;medicalIssue -->
+    <!-- &chear;hasMedicalIssue -->
 
-    <owl:ObjectProperty rdf:about="&chear;medicalIssue">
+    <owl:ObjectProperty rdf:about="&chear;hasMedicalIssue">
         <dct:source>https://en.wikipedia.org/wiki/Disease</dct:source>
         <skos:definition>any physiologic, mental or psychological condition or disorder</skos:definition>
         <skos:prefLabel>medicalIssue</skos:prefLabel>
@@ -366,9 +366,9 @@
 
 
 
-    <!-- &chear;neighbourhoodSafety -->
+    <!-- &chear;hasNeighbourhoodSafety -->
 
-    <owl:ObjectProperty rdf:about="&chear;neighbourhoodSafety">
+    <owl:ObjectProperty rdf:about="&chear;hasNeighbourhoodSafety">
         <dct:source>https://www.phenxtoolkit.org/index.php?pageLink=browse.protocols&amp;id=210900</dct:source>
         <skos:definition>a questionnaire to assess the respondent's perceptions about safety and crime in their neighborhoods</skos:definition>
         <skos:prefLabel>neighborhoodSafety</skos:prefLabel>
@@ -378,9 +378,9 @@
 
 
 
-    <!-- &chear;physicalActivity -->
+    <!-- &chear;doesPhysicalActivity -->
 
-    <owl:ObjectProperty rdf:about="&chear;physicalActivity">
+    <owl:ObjectProperty rdf:about="&chear;doesPhysicalActivity">
         <skos:prefLabel>physicalActivity</skos:prefLabel>
         <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</rdfs:isDefinedBy>
         <skos:definition>Any form of exercise or movement. Physical activity may include planned activity such as walking, running, basketball, or other sports. Physical activity may also include other daily activities such as household chores, yard work, walking the dog, etc.</skos:definition>
@@ -391,9 +391,9 @@
 
 
 
-    <!-- &chear;prejudice -->
+    <!-- &chear;hasPrejudice -->
 
-    <owl:ObjectProperty rdf:about="&chear;prejudice">
+    <owl:ObjectProperty rdf:about="&chear;hasPrejudice">
         <dct:source>https://en.wikipedia.org/wiki/Prejudice</dct:source>
         <skos:definition>preconceived opinion that is not based on reason or actual experience.</skos:definition>
         <skos:prefLabel>prejudice</skos:prefLabel>
@@ -403,9 +403,9 @@
 
 
 
-    <!-- &chear;race -->
+    <!-- &chear;isPartOfRace -->
 
-    <owl:ObjectProperty rdf:about="&chear;race">
+    <owl:ObjectProperty rdf:about="&chear;isPartOfRace">
     	<dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
         <rdfs:isDefinedBy>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</rdfs:isDefinedBy>
         <skos:altLabel>materialWealth</skos:altLabel>
@@ -418,9 +418,9 @@
 
 
 
-    <!-- &chear;socioeconomicStatus -->
+    <!-- &chear;hasSocioeconomicStatus -->
 
-    <owl:ObjectProperty rdf:about="&chear;socioeconomicStatus">
+    <owl:ObjectProperty rdf:about="&chear;hasSocioeconomicStatus">
         <dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
         <skos:definition>The combination of one&apos;s social class and income level. Includes socioeconomic differences between individuals or groups.</skos:definition>
         <skos:prefLabel>prejudice</skos:prefLabel>
