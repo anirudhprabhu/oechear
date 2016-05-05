@@ -588,9 +588,90 @@
         <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
+	
+	
+	
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/symptom -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom">
+        <dct:source>http://bioportal.bioontology.org/ontologies/EXO?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FExO_0000080</dct:source>
+        <skos:definition>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease</skos:definition>
+        <skos:prefLabel>symptom</skos:prefLabel>
+    </owl:ObjectProperty>
+	
+	
+	
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/wheezing -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Wheezing">
+        <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/56018004</dct:source>
+        <skos:definition>A symptom characterized by a high-pitched, whistling sound during breathing.</skos:definition>
+        <skos:prefLabel>wheezing</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+
     
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PrenatalETSExposure  -->
 
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PrenatalETSExposure">
+        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
+        <skos:definition>Exposure to tobacco smoke occurring when a woman is pregnant.</skos:definition>
+        <skos:prefLabel>measuredBy</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+	
+	
+	
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PostnatalETSExposure  -->
 
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PostnatalETSExposure ">
+        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
+        <skos:definition>Exposure to tobacco smoke occurring after birth, especially during the period immediately after birth.)</skos:definition>
+        <skos:prefLabel>postnatalEnvironmentalTobaccoSmokeExposure</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+	
+	
+	
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/cough -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/cough">
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C37935</dct:source>
+        <skos:definition>A sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs, and usually accompanied by a distinctive sound.</skos:definition>
+        <skos:prefLabel>cough</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+	
+	
+	
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Drycough -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/cough">
+        <dct:source>http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F11833005</dct:source>
+        <skos:definition>A cough not accompanied by phlegm production.</skos:definition>
+        <skos:prefLabel>dryCough</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+		
+	
+	
+	<!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NightCough -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NightCough">
+        <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C37935</dct:source>
+        <skos:definition>A cough, or tussis, that occurs primarily at night, typically when you are lying down (postural cough).</skos:definition>
+        <skos:prefLabel>nightCough</skos:prefLabel>
+		<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Symptom"/>
+    </owl:ObjectProperty>
+	
+		
+			
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
