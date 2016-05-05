@@ -261,7 +261,61 @@
 	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
         <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Disease"/>
     </owl:ObjectProperty>
-    
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/exposure -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/exposure">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>The act of subjecting someone or something to an influencing experience.</skos:definition>
+        <skos:prefLabel>exposure</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+    </owl:ObjectProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/prenatalETSExposure -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/prenatalETSExposure">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Exposure to tobacco smoke occurring when a woman is pregnant.</skos:definition>
+        <skos:prefLabel>prenatalETSExposure</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/exposure"/>
+    </owl:ObjectProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/postnatalETSExposure -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/postnatalETSExposure">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>Exposure to tobacco smoke occurring after birth, especially during the period immediately after birth.</skos:definition>
+        <skos:prefLabel>postnatalETSExposure</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/exposure"/>
+    </owl:ObjectProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/passiveSmoking -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/passiveSmoking">
+        <dct:source>CHEAR Group</dct:source>
+        <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
+        <skos:note>Used for answering questions about Passive Smoking in the survey</skos:note>
+        <skos:prefLabel>passiveSmoking</skos:prefLabel>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
+        <rdfs:subPropertyOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/exposure"/>
+    </owl:ObjectProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/appliance -->
+
+    <owl:ObjectProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/appliance">
+        <dct:source>CHEAR Group</dct:source>
+        skos:prefLabel>appliance</skos:prefLabel>
+        <skos:definition>household machines, using electricity or some other energy input.</skos:definition>
+	<rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Appliance"/>
+    </owl:ObjectProperty>
+
 
 
     <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/hasLiteral -->
@@ -448,6 +502,27 @@
         <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DurationDescription"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/age -->
+
+    <owl:DatatypeProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/age">
+        <skos:definition>the amount of time during which a person or animal has lived</skos:definition>
+        <rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <skos:prefLabel>age</skos:prefLabel>
+    </owl:DatatypeProperty>
+
+    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/numberOfSedentaryHours -->
+
+    <owl:DatatypeProperty rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/numberOfSedentaryHours">
+        <skos:definition>Number of hours a person spends without physical activity</skos:definition>
+        <skos:prefLabel>numberOfSedentaryHours</skos:prefLabel>
+        <rdfs:domain rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <skos:prefLabel>age</skos:prefLabel>
+    </owl:DatatypeProperty>
+
+
     
 
 
@@ -1511,10 +1586,10 @@
     <owl:Class rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PassiveSmoking">
         <rdfs:subClassOf rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Exposure"/>
         <skos:altLabel>secondHandSmoking</skos:altLabel>
-        <skos:note>Used for answering questions about Passive Smoking in the survey</skos:note>
         <rdfs:isDefinedBy>https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=passive%20smoking</rdfs:isDefinedBy>
         <skos:prefLabel>passiveSmoking</skos:prefLabel>
         <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
+        <skos:note>Used for answering questions about Passive Smoking in the survey</skos:note>
         <dct:source>http://www.ncbi.nlm.nih.gov/pubmed/26822280</dct:source>
     </owl:Class>
     
