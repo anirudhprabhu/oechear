@@ -204,7 +204,6 @@
 
 
 
-
     <!-- &chear;calculatedFrom -->
 
     <owl:ObjectProperty rdf:about="&chear;calculatedFrom">
@@ -261,6 +260,8 @@
         <rdfs:range rdf:resource="&chear;Disease"/>
     </owl:ObjectProperty>
 
+
+
     <!-- &chear;isExposedTo -->
 
     <owl:ObjectProperty rdf:about="&chear;isExposedTo">
@@ -271,6 +272,8 @@
         <rdfs:range rdf:resource="&chear;Exposure"/>
     </owl:ObjectProperty>
 
+
+
     <!-- &chear;hasPrenatalETSExposure -->
 
     <owl:ObjectProperty rdf:about="&chear;hasPrenatalETSExposure">
@@ -279,8 +282,10 @@
         <skos:prefLabel>prenatalETSExposure</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
-        <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
+        <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
     </owl:ObjectProperty>
+
+
 
     <!-- &chear;hasPostnatalETSExposure -->
 
@@ -290,25 +295,27 @@
         <skos:prefLabel>postnatalETSExposure</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
-        <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
+        <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
     </owl:ObjectProperty>
+
+
 
     <!-- &chear;isExposedToPassiveSmoke -->
 
     <owl:ObjectProperty rdf:about="&chear;isExposedToPassiveSmoke">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
-        <skos:prefLabel>passiveSmoking</skos:prefLabel>
+        <skos:prefLabel>isExposedToPassiveSmoke</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
-        <rdfs:subPropertyOf rdf:resource="&chear;exposure"/>
+        <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
     </owl:ObjectProperty>
 
     <!-- &chear;hasAppliance -->
 
     <owl:ObjectProperty rdf:about="&chear;hasAppliance">
         <dct:source>CHEAR Group</dct:source>
-        <skos:prefLabel>appliance</skos:prefLabel>
+        <skos:prefLabel>hasAppliance</skos:prefLabel>
         <skos:definition>Owning household machines, using electricity or some other energy input.</skos:definition>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Appliance"/>
@@ -319,7 +326,7 @@
 
     <owl:ObjectProperty rdf:about="&chear;hasHouse">
         <dct:source>CHEAR Group</dct:source>
-        <skos:prefLabel>house</skos:prefLabel>
+        <skos:prefLabel>hasHouse</skos:prefLabel>
         <skos:definition>Owning a building in which people live</skos:definition>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;House"/>
@@ -345,10 +352,10 @@
     <owl:ObjectProperty rdf:about="&chear;hasSmallHouse">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>Owning a house that is small</skos:definition>
-        <skos:prefLabel>smallHouse</skos:prefLabel>
+        <skos:prefLabel>hasSmallHouse</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;House"/>
-        <rdfs:subPropertyOf rdf:resource="&chear;house"/>
+        <rdfs:subPropertyOf rdf:resource="&chear;hasHouse"/>
     </owl:ObjectProperty>
 
 
@@ -358,7 +365,7 @@
     <owl:ObjectProperty rdf:about="&chear;hasMedicalIssue">
         <dct:source>https://en.wikipedia.org/wiki/Disease</dct:source>
         <skos:definition>Person having any physiologic, mental or psychological condition or disorder</skos:definition>
-        <skos:prefLabel>medicalIssue</skos:prefLabel>
+        <skos:prefLabel>hasMedicalIssue</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;MedicalIssue"/>
     </owl:ObjectProperty>
@@ -369,7 +376,7 @@
 
     <owl:ObjectProperty rdf:about="&chear;hasNeighbourhoodSafety">
         <skos:definition>Checks if the neighbourhood of the participant is safe based on a questionnaire</skos:definition>
-        <skos:prefLabel>neighborhoodSafety</skos:prefLabel>
+        <skos:prefLabel>hasNeighbourhoodSafety</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;NeighbourhoodSafety"/>
     </owl:ObjectProperty>
@@ -379,7 +386,7 @@
     <!-- &chear;doesPhysicalActivity -->
 
     <owl:ObjectProperty rdf:about="&chear;doesPhysicalActivity">
-        <skos:prefLabel>physicalActivity</skos:prefLabel>
+        <skos:prefLabel>doesPhysicalActivity</skos:prefLabel>
         <skos:definition>Checks if the person performs any form of exercise or movement. Physical activity may include planned activity such as walking, running, basketball, or other sports. Physical activity may also include other daily activities such as household chores, yard work, walking the dog, etc.</skos:definition>
         <dct:source>http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C17708</dct:source>
 	<rdfs:domain rdf:resource="&chear;Person"/>
@@ -393,7 +400,7 @@
     <owl:ObjectProperty rdf:about="&chear;hasPrejudice">
         <dct:source>https://en.wikipedia.org/wiki/Prejudice</dct:source>
         <skos:definition>Whether a person has a preconceived opinion that is not based on reason or actual experience.</skos:definition>
-        <skos:prefLabel>prejudice</skos:prefLabel>
+        <skos:prefLabel>hasPrejudice</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Prejudice"/>
     </owl:ObjectProperty>
@@ -405,7 +412,6 @@
     <owl:ObjectProperty rdf:about="&chear;isPartOfRace">
     	<skos:prefLabel>race</skos:prefLabel>
         <skos:definition>Checks if a person is part of an arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution.</skos:definition>
-        <skos:altLabel>racialGroup</skos:altLabel>
         <rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Race"/>
     </owl:ObjectProperty>
@@ -417,11 +423,9 @@
     <owl:ObjectProperty rdf:about="&chear;hasSocioeconomicStatus">
         <dct:source>http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520%285%29.owl%23Socioeconomic_Status</dct:source>
         <skos:definition>the person having a combination of one&apos;s social class and income level. Includes socioeconomic differences between individuals or groups.</skos:definition>
-        <skos:prefLabel>prejudice</skos:prefLabel>
-        <skos:altLabel>materialWealth</skos:altLabel>
-        <skos:altLabel>socioeconomicFactors</skos:altLabel>
+        <skos:prefLabel>hasSocioeconomicStatus</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Prejudice"/>
+        <rdfs:range rdf:resource="&chear;SocioeconomicStatus"/>
     </owl:ObjectProperty>
 
 
@@ -470,7 +474,6 @@
         <dct:source>http://www.merriam-webster.com/dictionary/resource</dct:source>
         <skos:definition>a particular type of resource that the bearer entity has</skos:definition>
         <skos:prefLabel>hasResource</skos:prefLabel>
-
     </owl:ObjectProperty>
 
 
@@ -484,8 +487,6 @@
         <skos:prefLabel>hasResponse</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Question"/>
         <rdfs:range rdf:resource="&chear;Response"/>
-
-
     </owl:ObjectProperty>
 
 
@@ -588,9 +589,9 @@
     <owl:ObjectProperty rdf:about="&chear;hasWheezing">
         <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/56018004</dct:source>
         <skos:definition>A symptom characterized by a high-pitched, whistling sound during breathing.</skos:definition>
-        <skos:prefLabel>wheezing</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
+        <skos:prefLabel>hasWheezing</skos:prefLabel>
+	<rdfs:domain rdf:resource="&chear;Person"/>
+        <rdfs:range rdf:resource="&chear;Wheezing"/>
     </owl:ObjectProperty>
 
 
