@@ -583,69 +583,46 @@
     </owl:ObjectProperty>
 
 
-    <!-- &chear;wheezing -->
+    <!-- &chear;hasWheezing -->
 
-    <owl:ObjectProperty rdf:about="&chear;Wheezing">
+    <owl:ObjectProperty rdf:about="&chear;hasWheezing">
         <dct:source>http://purl.bioontology.org/ontology/SNOMEDCT/56018004</dct:source>
         <skos:definition>A symptom characterized by a high-pitched, whistling sound during breathing.</skos:definition>
         <skos:prefLabel>wheezing</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
-    </owl:ObjectProperty>
-
-
-	<!-- &chear;PrenatalETSExposure  -->
-
-    <owl:ObjectProperty rdf:about="&chear;PrenatalETSExposure">
-        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
-        <skos:definition>Exposure to tobacco smoke occurring when a woman is pregnant.</skos:definition>
-        <skos:prefLabel>measuredBy</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
+		<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Symptom"/>
     </owl:ObjectProperty>
 
 
 
-	<!-- &chear;PostnatalETSExposure  -->
+	<!-- &chear;hasCough -->
 
-    <owl:ObjectProperty rdf:about="&chear;PostnatalETSExposure">
-        <dct:source>http://pediatrics.aappublications.org/content/113/Supplement_3/1007</dct:source>
-        <skos:definition>Exposure to tobacco smoke occurring after birth, especially during the period immediately after birth.)</skos:definition>
-        <skos:prefLabel>postnatalEnvironmentalTobaccoSmokeExposure</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
-    </owl:ObjectProperty>
-
-
-
-	<!-- &chear;cough -->
-
-    <owl:ObjectProperty rdf:about="&chear;cough">
+    <owl:ObjectProperty rdf:about="&chear;hasCough">
         <skos:definition>A sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs, and usually accompanied by a distinctive sound.</skos:definition>
         <skos:prefLabel>cough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
+		<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Symptom"/>
     </owl:ObjectProperty>
 
 
 
-	<!-- &chear;Drycough -->
+	<!-- &chear;hasDryCough -->
 
-    <owl:ObjectProperty rdf:about="&chear;dryCough">
+    <owl:ObjectProperty rdf:about="&chear;hasDryCough">
         <skos:definition>A cough not accompanied by phlegm production.</skos:definition>
         <skos:prefLabel>dryCough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
+		<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Symptom"/>
     </owl:ObjectProperty>
 
 
 
-	<!-- &chear;NightCough -->
+	<!-- &chear;hasNightCough -->
 
-    <owl:ObjectProperty rdf:about="&chear;nightCough">
+    <owl:ObjectProperty rdf:about="&chear;hasNightCough">
         <skos:definition>A cough, or tussis, that occurs primarily at night, typically when you are lying down (postural cough).</skos:definition>
         <skos:prefLabel>nightCough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Disease"/>
+		<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Symptom"/>
     </owl:ObjectProperty>
 
@@ -678,42 +655,41 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
 
-    <!-- &chear;age -->
+    <!-- &chear;hasAge -->
 
-    <owl:DatatypeProperty rdf:about="&chear;age">
+    <owl:DatatypeProperty rdf:about="&chear;hasAge">
         <skos:definition>the amount of time during which a person or animal has lived</skos:definition>
         <rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-        <skos:prefLabel>age</skos:prefLabel>
+        <skos:prefLabel>hasAge</skos:prefLabel>
     </owl:DatatypeProperty>
 
-    <!-- &chear;numberOfSedentaryHours -->
+    <!-- &chear;spendsNumberOfSedentaryHours -->
 
-    <owl:DatatypeProperty rdf:about="&chear;numberOfSedentaryHours">
+    <owl:DatatypeProperty rdf:about="&chear;spendsNumberOfSedentaryHours">
         <skos:definition>Number of hours a person spends without physical activity</skos:definition>
-        <skos:prefLabel>numberOfSedentaryHours</skos:prefLabel>
         <rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-        <skos:prefLabel>age</skos:prefLabel>
+        <skos:prefLabel>spendsNumberOfSedentaryHours</skos:prefLabel>
     </owl:DatatypeProperty>
 
 
 
-    <!-- &chear;gender -->
+    <!-- &chear;hasGender -->
 
-    <owl:DatatypeProperty rdf:about="&chear;gender">
+    <owl:DatatypeProperty rdf:about="&chear;hasGender">
         <skos:definition>the state of being male or female</skos:definition>
         <rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&xsd;boolean"/>
-        <skos:prefLabel>gender</skos:prefLabel>
+        <skos:prefLabel>hasGender</skos:prefLabel>
     </owl:DatatypeProperty>
 
 
 
-    <!-- &chear;income -->
+    <!-- &chear;hasIncome -->
 
-    <owl:DatatypeProperty rdf:about="&chear;income">
-        <skos:prefLabel>income</skos:prefLabel>
+    <owl:DatatypeProperty rdf:about="&chear;hasIncome">
+        <skos:prefLabel>hasIncome</skos:prefLabel>
         <skos:definition>money received, especially on a regular basis, for work or through investments.</skos:definition>
         <dct:source>https://en.wikipedia.org/wiki/Income</dct:source>
 	<rdfs:domain rdf:resource="&chear;Person"/>
