@@ -10,10 +10,10 @@
     <!ENTITY time "http://www.w3.org/2006/time#" >
     <!ENTITY prov "http://www.w3.org/ns/prov#" >
 
-    <!ENTITY chear "https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/" >
+    <!ENTITY chear "https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/" >
 ]>
 
-<rdf:RDF xml:base="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/"
+<rdf:RDF xml:base="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -22,12 +22,12 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:time="http://www.w3.org/2006/time#"
-     xmlns:chear="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/">
+     xmlns:chear="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/">
 
-    <owl:Ontology rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/">
-        <owl:versionIRI rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/chear/1.0.0/"/>
+    <owl:Ontology rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/">
+        <owl:versionIRI rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/1.0.0/"/>
         <dct:publisher xml:lang="en">CHEAR Group</dct:publisher>
-        <dct:modified xml:lang="en">2016-04-29</dct:modified>
+        <dct:modified xml:lang="en">2016-05-06</dct:modified>
         <owl:priorVersion>&chear;1.0.0/</owl:priorVersion>
         <dct:rights rdfs:resource="http://opensource.org/licenses/mit-license.php"/>
         <dct:license rdfs:resource="http://opensource.org/licenses/mit-license.php"/>
@@ -37,11 +37,10 @@
         <dct:contributor xml:lang="en">Liang, Zhicheng (Jason)</dct:contributor>
         <dct:contributor xml:lang="en">Prabhu, Anirudh</dct:contributor>
         <dct:contributor xml:lang="en">Sheehan, John</dct:contributor>
-        <skos:changeNote>Added the MIT license to our ontology headers; Fixed the problems in our ontology headers according to the feedback we got from the instructors.</skos:changeNote>
-        <dct:abstract xml:lang="en">The purpose of this use case is to develop an ontology to compare and contrast two studies with one goal of determining how study results might meaningfully be combined. One examined relationships between different body size measurements and asthma in ethnic minority children[1], while the other examined the association between prenatal and postnatal maternal stress and wheeze in 417 children enrolled in a prospective birth cohort in Mexico City.</dct:abstract>
+        <skos:changeNote>This is the first version of our published ontology.</skos:changeNote>
+        <dct:abstract xml:lang="en">This ontology is used to compare and contrast two studies with one goal of determining how study results might meaningfully be combined. One examined relationships between different body size measurements and asthma in ethnic minority children, while the other examined the association between prenatal and postnatal maternal stress and wheeze in 417 children enrolled in a prospective birth cohort in Mexico City.</dct:abstract>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-
     </owl:Ontology>
 
 
