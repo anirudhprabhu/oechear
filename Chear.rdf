@@ -267,7 +267,7 @@
     <owl:ObjectProperty rdf:about="&chear;isExposedTo">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>The act of subjecting someone or something to an influencing experience.</skos:definition>
-        <skos:prefLabel>exposure</skos:prefLabel>
+        <skos:prefLabel>isExposedTo</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
     </owl:ObjectProperty>
@@ -279,7 +279,7 @@
     <owl:ObjectProperty rdf:about="&chear;hasPrenatalETSExposure">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>A woman being exposed to tobacco smoke occurring when she is pregnant.</skos:definition>
-        <skos:prefLabel>prenatalETSExposure</skos:prefLabel>
+        <skos:prefLabel>hasPrenatalETSExposure</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
         <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
@@ -292,7 +292,7 @@
     <owl:ObjectProperty rdf:about="&chear;hasPostnatalETSExposure">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>Person getting exposed to tobacco smoke occurring after birth, especially during the period immediately after birth.</skos:definition>
-        <skos:prefLabel>postnatalETSExposure</skos:prefLabel>
+        <skos:prefLabel>hasPostnatalETSExposure</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Exposure"/>
         <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
@@ -302,14 +302,16 @@
 
     <!-- &chear;isExposedToPassiveSmoke -->
 
-    <owl:ObjectProperty rdf:about="&chear;isExposedToPassiveSmoke">
+    <owl:ObjectProperty rdf:about="&chear;isExposedToPassiveSmoking">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>the involuntary inhaling of smoke from other people&apos;s cigarettes, cigars, or pipes.</skos:definition>
-        <skos:prefLabel>isExposedToPassiveSmoke</skos:prefLabel>
+        <skos:prefLabel>isExposedToPassiveSmoking</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Exposure"/>
+        <rdfs:range rdf:resource="&chear;PassiveSmoking"/>
         <rdfs:subPropertyOf rdf:resource="&chear;isExposedTo"/>
     </owl:ObjectProperty>
+
+
 
     <!-- &chear;hasAppliance -->
 
@@ -339,10 +341,10 @@
     <owl:ObjectProperty rdf:about="&chear;hasBigHouse">
         <dct:source>CHEAR Group</dct:source>
         <skos:definition>Owning a house that is big</skos:definition>
-        <skos:prefLabel>bigHouse</skos:prefLabel>
+        <skos:prefLabel>hasBigHouse</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;House"/>
-        <rdfs:subPropertyOf rdf:resource="&chear;house"/>
+        <rdfs:subPropertyOf rdf:resource="&chear;hasHouse"/>
     </owl:ObjectProperty>
 
 
@@ -410,7 +412,7 @@
     <!-- &chear;isPartOfRace -->
 
     <owl:ObjectProperty rdf:about="&chear;isPartOfRace">
-    	<skos:prefLabel>race</skos:prefLabel>
+    	<skos:prefLabel>isPartOfRace</skos:prefLabel>
         <skos:definition>Checks if a person is part of an arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution.</skos:definition>
         <rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Race"/>
@@ -461,7 +463,7 @@
         <skos:definition>A summary, brief account, or record that the bearer person has</skos:definition>
         <skos:prefLabel>hasProfile</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;SurveyData"/>
+        <rdfs:range rdf:resource="&chear;PatientProfile"/>
     </owl:ObjectProperty>
 
 
@@ -552,10 +554,10 @@
 
     <!-- &chear;use -->
 
-    <owl:ObjectProperty rdf:about="&chear;use">
+    <owl:ObjectProperty rdf:about="&chear;uses">
         <dct:source>http://www.merriam-webster.com/dictionary/use</dct:source>
         <skos:definition>to do something with (an object, machine, person, method, etc.) in order to accomplish a task.</skos:definition>
-        <skos:prefLabel>use</skos:prefLabel>
+        <skos:prefLabel>uses</skos:prefLabel>
 	<rdfs:domain rdf:resource="&chear;Person"/>
         <rdfs:range rdf:resource="&chear;Instrument"/>
     </owl:ObjectProperty>
@@ -600,9 +602,9 @@
 
     <owl:ObjectProperty rdf:about="&chear;hasCough">
         <skos:definition>A sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs, and usually accompanied by a distinctive sound.</skos:definition>
-        <skos:prefLabel>cough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
+        <skos:prefLabel>hasCough</skos:prefLabel>
+	<rdfs:domain rdf:resource="&chear;Person"/>
+        <rdfs:range rdf:resource="&chear;Cough"/>
     </owl:ObjectProperty>
 
 
@@ -611,9 +613,9 @@
 
     <owl:ObjectProperty rdf:about="&chear;hasDryCough">
         <skos:definition>A cough not accompanied by phlegm production.</skos:definition>
-        <skos:prefLabel>dryCough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
+        <skos:prefLabel>hasDryCough</skos:prefLabel>
+	<rdfs:domain rdf:resource="&chear;Person"/>
+        <rdfs:range rdf:resource="&chear;DryCough"/>
     </owl:ObjectProperty>
 
 
@@ -622,9 +624,9 @@
 
     <owl:ObjectProperty rdf:about="&chear;hasNightCough">
         <skos:definition>A cough, or tussis, that occurs primarily at night, typically when you are lying down (postural cough).</skos:definition>
-        <skos:prefLabel>nightCough</skos:prefLabel>
-		<rdfs:domain rdf:resource="&chear;Person"/>
-        <rdfs:range rdf:resource="&chear;Symptom"/>
+        <skos:prefLabel>hasNightCough</skos:prefLabel>
+        <rdfs:domain rdf:resource="&chear;Person"/>
+        <rdfs:range rdf:resource="&chear;NightCough"/>
     </owl:ObjectProperty>
 
 
@@ -656,6 +658,8 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
 
+
+
     <!-- &chear;hasAge -->
 
     <owl:DatatypeProperty rdf:about="&chear;hasAge">
@@ -664,6 +668,8 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <skos:prefLabel>hasAge</skos:prefLabel>
     </owl:DatatypeProperty>
+
+
 
     <!-- &chear;spendsNumberOfSedentaryHours -->
 
