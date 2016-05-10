@@ -10,14 +10,14 @@
     <!ENTITY time "http://www.w3.org/2006/time#" >
     <!ENTITY prov "http://www.w3.org/ns/prov#" >
 
-    <!ENTITY chear "http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/" >
-    <!ENTITY chear_individuals "http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/" >
+    <!ENTITY chear "https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/" >
+    <!ENTITY chear_individuals "https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/" >
 ]>
 
 <rdf:RDF
-     xml:base="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/"
-     xmlns:chear="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/"
-     xmlns:chear_individuals="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/"
+     xml:base="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/"
+     xmlns:chear="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/"
+     xmlns:chear_individuals="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -27,8 +27,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:time="http://www.w3.org/2006/time#">
 
-    <owl:Ontology rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/">
-        <owl:versionIRI rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/1.0.0/"/>
+    <owl:Ontology rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/">
+        <owl:versionIRI rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/1.0.0/"/>
         <dct:publisher xml:lang="en">CHEAR Group</dct:publisher>
         <dct:modified xml:lang="en">2016-04-29</dct:modified>
         <owl:priorVersion>http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_11_CHEAR_GROUP_INDIVIDUALS/1.0.0/</owl:priorVersion>
@@ -43,7 +43,7 @@
         <skos:changeNote>Added the MIT license to our ontology headers; Fixed the problems in our ontology headers according to the feedback we got from the instructors.</skos:changeNote>
         <dct:abstract xml:lang="en">The purpose of this Use Case is to develop an ontology to compare and contrast two studies with one goal of determining how study results might meaningfully be combined. One examined relationships between different body size measurements and asthma in ethnic minority children[1], while the other examined the association between prenatal and postnatal maternal stress and wheeze in 417 children enrolled in a prospective birth cohort in Mexico City.</dct:abstract>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-	<owl:imports rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/"/>
+	<owl:imports rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
     </owl:Ontology>
     
@@ -235,843 +235,843 @@
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Bathroom -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Bathroom -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Bathroom">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Bathroom">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Number of bathrooms with shower</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Boiler -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Boiler -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Boiler">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Boiler">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a boiler?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Car -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Car -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Car">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Car">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Number of cars</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_DVD -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_DVD -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_DVD">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_DVD">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a video or DVD player?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Education -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Education -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Education">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevelQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/EducationLevel"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Education">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/EducationLevelQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/EducationLevel"/>
         <rdfs:comment xml:lang="en">Education (head of household) - AMAI categories</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Flooring -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Flooring -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Flooring">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Flooring">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Type of flooring</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Lightbulb -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Lightbulb -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Lightbulb">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Lightbulb">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Number of lightbulbs</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Microwave -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Microwave -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Microwave">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Microwave">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a microwave?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_PC -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_PC -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_PC">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_PC">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a personal computer?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Room -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Room -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Room">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Room">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Number of rooms</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Toaster -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Toaster -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Toaster">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Toaster">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a toaster?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_VacuumCleaner -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_VacuumCleaner -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_VacuumCleaner">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_VacuumCleaner">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a vacuum cleaner?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Washer -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Washer -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Washer">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SocialEconomicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Washer">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SocialEconomicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
         <rdfs:comment xml:lang="en">Do you have a washer machine?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Age"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Age"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AnxietyDisorder -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AnxietyDisorder -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AnxietyDisorder">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/AnxietyDisorder"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AnxietyDisorder">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/AnxietyDisorder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Appliance -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Appliance -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Appliance">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Appliance"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Appliance">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Appliance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Asthma"/>
-        <chear:hasSideEffect rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AnxietyDisorder"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ChestTightness"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DryCough"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ShortnessOfBreath"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Asthma"/>
+        <chear:hasSideEffect rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AnxietyDisorder"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ChestTightness"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DryCough"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ShortnessOfBreath"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AsthmaActionPlan -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AsthmaActionPlan -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AsthmaActionPlan">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/AsthmaActionPlan"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Doctor"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/GreenZone"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RedZone"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/YellowZone"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AsthmaActionPlan">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/AsthmaActionPlan"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Doctor"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/GreenZone"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RedZone"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/YellowZone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Authority -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Authority -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Authority">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Authority"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Authority">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Authority"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BMIPercentile -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BMIPercentile -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BMIPercentile">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BMIPercentile"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyMassIndex"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender"/>
-        <chear:hasPositiveRelation rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BMIPercentile">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BMIPercentile"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyMassIndex"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender"/>
+        <chear:hasPositiveRelation rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BMIZScore -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BMIZScore -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BMIZScore">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BMIZScore"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyMassIndex"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HeadCircumference"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BMIZScore">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BMIZScore"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyMassIndex"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HeadCircumference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Baseline -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Baseline -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Baseline">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Baseline"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Baseline">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Baseline"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BigHouse -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BigHouse -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BigHouse">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BigHouse"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BigHouse">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BigHouse"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BioelectricalImpedanceAnalyzer -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BioelectricalImpedanceAnalyzer -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BioelectricalImpedanceAnalyzer">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BioelectricalImpedanceAnalyzer"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Bioimpedance"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BioelectricalImpedanceAnalyzer">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BioelectricalImpedanceAnalyzer"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Bioimpedance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Bioimpedance -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Bioimpedance -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Bioimpedance">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Bioimpedance"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Bioimpedance">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Bioimpedance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyComposition -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyComposition -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyComposition">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyComposition"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyComposition">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BodyComposition"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyCompositionCalculation -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyCompositionCalculation -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyCompositionCalculation">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyCompositionCalculation"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyCompositionCalculation">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BodyCompositionCalculation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyMassIndex -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyMassIndex -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyMassIndex">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/BodyMassIndex"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyMassIndex">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/BodyMassIndex"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/CareGiver -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/CareGiver -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/CareGiver">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/CareGiver"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/CareGiver">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/CareGiver"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Career -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Career -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Career">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Career"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Career">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Career"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ChestTightness -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ChestTightness -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ChestTightness">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ChestTightness"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ChestTightness">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ChestTightness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Cough -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Cough -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Cough">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Cough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Cough">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Cough"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DataCollectionInstrument -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DataCollectionInstrument -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DataCollectionInstrument">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DataCollectionInstrument"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Question"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PatientProfile"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DataCollectionInstrument">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/DataCollectionInstrument"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Question"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PatientProfile"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DateOfBirth -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DateOfBirth -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DateOfBirth">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DateOfBirth"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DateOfBirth">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/DateOfBirth"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DigitalPeakFlowMeter -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DigitalPeakFlowMeter -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DigitalPeakFlowMeter">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DigitalPeakFlowMeter"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ForcedExpiratoryVolumeIn1Second"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlow"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DigitalPeakFlowMeter">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/DigitalPeakFlowMeter"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ForcedExpiratoryVolumeIn1Second"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlow"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Doctor -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Doctor -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Doctor">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Doctor"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Doctor">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Doctor"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DryCough -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DryCough -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DryCough">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DryCough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DryCough">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/DryCough"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/EducationLevel -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/EducationLevel -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/EducationLevel">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevel"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/EducationLevel">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/EducationLevel"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Examiner -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Examiner -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Examiner">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Examiner"/>
-        <chear:hasLiteral rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID"/>
-        <chear:hasLiteral rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Examiner">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Examiner"/>
+        <chear:hasLiteral rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID"/>
+        <chear:hasLiteral rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/FatFreeMass -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/FatFreeMass -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/FatFreeMass">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FatFreeMass"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Bioimpedance"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/FatFreeMass">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FatFreeMass"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Bioimpedance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/FollowUp -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/FollowUp -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/FollowUp">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FollowUp"/>
-        <time:after rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Baseline"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/FollowUp">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FollowUp"/>
+        <time:after rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Baseline"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ForcedExpiratoryVolumeIn1Second -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ForcedExpiratoryVolumeIn1Second -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ForcedExpiratoryVolumeIn1Second">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ForcedExpiratoryVolumeIn1Second"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ForcedExpiratoryVolumeIn1Second"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ForcedExpiratoryVolumeIn1Second">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ForcedExpiratoryVolumeIn1Second"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ForcedExpiratoryVolumeIn1Second"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Gender"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Gender"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/GreenZone -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/GreenZone -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/GreenZone">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/GreenZone"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/GreenZone">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/GreenZone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HeadCircumference -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HeadCircumference -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HeadCircumference">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HeadCircumference"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HeadCircumference">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HeadCircumference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HealthOMeter -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HealthOMeter -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HealthOMeter">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthOMeter"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HealthOMeter">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthOMeter"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Height"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Height"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HighIncome -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HighIncome -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HighIncome">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HighIncome"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HighIncome">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HighIncome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HipCircumference -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HipCircumference -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HipCircumference">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HipCircumference"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HipCircumference">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HipCircumference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/House"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/House"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ID"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ID"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_1 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_1 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_1">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalHistoryQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_1">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalHistoryQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">Have your child ever had wheezing or whistling in the chest? (ever had a “whistle” or hoarseness in the chest)?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_2 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_2 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_2">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalHistoryQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_2">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalHistoryQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">In the past 12 months, did your child have wheezing or whistling in the chest?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_3 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_3 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_3">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_3">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">How many wheezing attacks or whistling in the chest did your child have in the past 12 months?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_4 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_4 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_4">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_4">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">In the past 12 months how many times did your child wake up during the night due to wheezing or whistling in the chest?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_5 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_5 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_5">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_5">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">In the past 12 months has the wheezing or whistling in the chest been so strong he/she hasn’t been able to say one or two words between each breath?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_6 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_6 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_6">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_6">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue"/>
         <rdfs:comment xml:lang="en">Have your child ever been diagnosed with asthma?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_7 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_7 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_7">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_7">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">During the past 12 months did your child have wheezing or whistling in the chest during or after doing exercise or running?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_8 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_8 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_8">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DryCough"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NightCough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_8">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DryCough"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NightCough"/>
         <rdfs:comment xml:lang="en">During the past 12 months did your child have dry cough during the night, besides any cough associated with colds or respiratory infections?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</time:months>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Income -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Income -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Income">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Income"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Income">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Income"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Interviewer -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Interviewer -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Interviewer">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Interviewer"/>
-        <chear:hasLiteral rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID"/>
-        <chear:hasLiteral rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Interviewer">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Interviewer"/>
+        <chear:hasLiteral rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID"/>
+        <chear:hasLiteral rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Legal -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Legal -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Legal">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Legal"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Legal">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Legal"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/LowIncome -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/LowIncome -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/LowIncome">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/LowIncome"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/LowIncome">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/LowIncome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MechanicalPeakFlowMeter -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MechanicalPeakFlowMeter -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MechanicalPeakFlowMeter">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MechanicalPeakFlowMeter"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlow"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MechanicalPeakFlowMeter">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MechanicalPeakFlowMeter"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlow"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalIssue"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MediumIncome -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MediumIncome -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MediumIncome">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MediumIncome"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MediumIncome">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MediumIncome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MetabolicEquivalent -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MetabolicEquivalent -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MetabolicEquivalent">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MetabolicEquivalent"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PhysicalActivity"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalCaloricIntake"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MetabolicEquivalent">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MetabolicEquivalent"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PhysicalActivity"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalCaloricIntake"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A10 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A10 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A10">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/refused"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A10">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RaceQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/refused"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
         <rdfs:comment xml:lang="en">Do you consider (CHILD’S NAME) to be Hispanic/Latina?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A11 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A11 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A11">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A11">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RaceQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
         <rdfs:comment xml:lang="en">Where did (CHILD’S NAME)’s Hispanic/Latino ancestors come from? (CIRCLE ALL THAT APPLY)</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A12 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A12 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A12">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A12">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RaceQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
         <rdfs:comment xml:lang="en">What race do you consider (CHILD’S NAME) to be? (CIRCLE ALL THAT APPLY)</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A13 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A13 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A13">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A13">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RaceQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
         <rdfs:comment xml:lang="en">Where did (CHILD’S NAME)’s Asian ancestors come from? (CIRCLE ALL THAT APPLY)</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A14 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A14 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A14">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RaceQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A14">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RaceQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
         <rdfs:comment xml:lang="en">Which one of these groups, that is (READ RESPONSES CODED IN A12), would you say best represents
 (CHILD’S NAME) race?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D17 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D17 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D17">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D17">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SmokingQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking"/>
         <rdfs:comment xml:lang="en">How many smokers currently live in (CHILD’S NAME)’s household, or visit at least once per week? For example, yourself or spouse, other relatives, friends, or a baby sitter.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D18 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D18 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D18">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D18">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SmokingQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking"/>
         <rdfs:comment xml:lang="en">How is the (first/next) person who smokes related to (CHILD’S NAME)?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D19 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D19 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D19">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D19">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SmokingQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking"/>
         <rdfs:comment xml:lang="en">On average, how many cigarettes per day or week (do/does) (you/she/he) usually smoke inside (CHILD’S NAME)’s home?</rdfs:comment>
         <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:weeks>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F1 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F1 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F1">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F1">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue"/>
         <rdfs:comment xml:lang="en">Has a doctor or nurse ever said that (CHILD’S NAME) has asthma?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F2 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F2 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F2">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F2">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
         <rdfs:comment xml:lang="en">Does (CHILD’S NAME) ever wheeze or have a whistling in her chest?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F3 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F3 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F3">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Cough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F3">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Cough"/>
         <rdfs:comment xml:lang="en">Does (CHILD’S NAME) ever have a cough that will not go away?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F4 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F4 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F4">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NightCough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F4">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NightCough"/>
         <rdfs:comment xml:lang="en">Does (CHILD’S NAME) ever cough at night when she does not have a cold?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F5 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F5 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F5">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RespiratoryProblem"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F5">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RespiratoryProblem"/>
         <rdfs:comment xml:lang="en">Does (CHILD’S NAME) ever have breathing problems when the air temperature changes?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F6 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F6 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F6">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/HealthRelatedQuestion"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes"/>
-        <chear:hasResponse rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F6">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/HealthRelatedQuestion"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes"/>
+        <chear:hasResponse rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue"/>
         <rdfs:comment xml:lang="en">In the past week, has your daughter taken or used any medicines that were prescribed by a doctor or dentist?</rdfs:comment>
-        <time:hasEnd rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate"/>
+        <time:hasEnd rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate"/>
         <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:weeks>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_Gender -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_Gender -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_Gender">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/DemographicQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_Gender">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/DemographicQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender"/>
         <rdfs:comment xml:lang="en">CHILD’S GENDER</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L26 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L26 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L26">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevelQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/CareGiver"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L26">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/EducationLevelQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/CareGiver"/>
         <rdfs:comment xml:lang="en">In a typical week, who is the person who spends the greatest amount of time with (CHILD’S NAME)? (What
 is (her/his) relationship to (CHILD’S NAME)</rdfs:comment>
         <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:weeks>
@@ -1079,761 +1079,761 @@ is (her/his) relationship to (CHILD’S NAME)</rdfs:comment>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L29 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L29 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L29">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/EducationLevelQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/CareGiver"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L29">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/EducationLevelQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/CareGiver"/>
         <rdfs:comment xml:lang="en">Starting from first grade, how many years of education (have you/has she/has he) had, or what is the
 highest degree (you have/she has/he has) received?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Name"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Name"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NeighbourhoodSafety -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NeighbourhoodSafety -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NeighbourhoodSafety">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NeighbourhoodSafety"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NeighbourhoodSafety">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/NeighbourhoodSafety"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NightCough -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NightCough -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NightCough">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue"/>
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/NightCough"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NightCough">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalIssue"/>
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/NightCough"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ObesityAsthmaAssociationStudy -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ObesityAsthmaAssociationStudy -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ObesityAsthmaAssociationStudy">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Study"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A10"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A11"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A12"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A13"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_A14"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D17"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D18"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_D19"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F1"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F2"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F3"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F4"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F5"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_F6"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_Gender"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L26"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NY_L29"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Question"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ObesityAsthmaAssociationStudy">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Study"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A10"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A11"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A12"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A13"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_A14"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D17"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D18"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_D19"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F1"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F2"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F3"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F4"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F5"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_F6"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_Gender"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L26"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NY_L29"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Question"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ObstructiveSleepApnea -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ObstructiveSleepApnea -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ObstructiveSleepApnea">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ObstructiveSleepApnea"/>
-        <chear:hasSideEffect rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AnxietyDisorder"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ObstructiveSleepApnea">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ObstructiveSleepApnea"/>
+        <chear:hasSideEffect rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AnxietyDisorder"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PROGRESS_32 -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PROGRESS_32 -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PROGRESS_32">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmokingQuestion"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PostnatalETSExposure"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PROGRESS_32">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SmokingQuestion"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PostnatalETSExposure"/>
         <rdfs:comment>Of the people you live with how many of them smoke?</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PassiveSmoking">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PassiveSmoking"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PassiveSmoking">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PassiveSmoking"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Patient -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Patient -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Patient">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Patient"/>
-        <chear:hasDisease rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma"/>
-        <chear:hasProfile rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DateOfBirth"/>
-        <chear:hasProfile rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PatientProfile"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AsthmaActionPlan"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DryCough"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RespiratoryProblem"/>
-        <chear:hasSymptom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeter"/>
-        <chear:use rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeter"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Patient">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Patient"/>
+        <chear:hasDisease rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma"/>
+        <chear:hasProfile rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DateOfBirth"/>
+        <chear:hasProfile rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PatientProfile"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AsthmaActionPlan"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DryCough"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RespiratoryProblem"/>
+        <chear:hasSymptom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeter"/>
+        <chear:use rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeter"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PatientProfile -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PatientProfile -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PatientProfile">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PatientProfile"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ID"/>
-        <chear:hasContent rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Name"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PatientProfile">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PatientProfile"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ID"/>
+        <chear:hasContent rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Name"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlow -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlow -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlow">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PeakExpiratoryFlow"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlow">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PeakExpiratoryFlow"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlowRate -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlowRate -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlowRate">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PeakExpiratoryFlowRate"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlowRate">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PeakExpiratoryFlowRate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeasurement -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeasurement -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeasurement">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PeakFlowMeasurement"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Gender"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeasurement">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PeakFlowMeasurement"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Gender"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeter -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeter -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakFlowMeter">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PeakFlowMeter"/>
-        <chear:estimate rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PeakExpiratoryFlowRate"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakFlowMeter">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PeakFlowMeter"/>
+        <chear:estimate rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PeakExpiratoryFlowRate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Pedometer -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Pedometer -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Pedometer">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Pedometer"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PhysicalActivity"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Pedometer">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Pedometer"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PhysicalActivity"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PercentBodyFat -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PercentBodyFat -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PercentBodyFat">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PercentBodyFat"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalBodyFat"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight"/>
-        <chear:hasPositiveRelation rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PercentBodyFat">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PercentBodyFat"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalBodyFat"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight"/>
+        <chear:hasPositiveRelation rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PhysicalActivity -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PhysicalActivity -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PhysicalActivity">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PhysicalActivity"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PhysicalActivity">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PhysicalActivity"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PostnatalETSExposure -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PostnatalETSExposure -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PostnatalETSExposure">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PostnatalETSExposure"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PostnatalETSExposure">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PostnatalETSExposure"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Prejudice -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Prejudice -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Prejudice">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Prejudice"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Prejudice">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Prejudice"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PrenatalETSExposure -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PrenatalETSExposure -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PrenatalETSExposure">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PrenatalETSExposure"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PrenatalETSExposure">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PrenatalETSExposure"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PsychosocialStressScore -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PsychosocialStressScore -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PsychosocialStressScore">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/PsychosocialStressScore"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Authority"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Career"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/House"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Income"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Legal"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/MedicalIssue"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/NeighbourhoodSafety"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Prejudice"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PsychosocialStressScore">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/PsychosocialStressScore"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Authority"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Career"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/House"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Income"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Legal"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/MedicalIssue"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/NeighbourhoodSafety"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Prejudice"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Question -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Question -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Question">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Question"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Question">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Question"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Race"/>
-        <chear:hasSubject rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Race"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Race"/>
+        <chear:hasSubject rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Race"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RedZone -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RedZone -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RedZone">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RedZone"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RedZone">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RedZone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RespiratoryProblem -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RespiratoryProblem -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/RespiratoryProblem">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue"/>
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/RespiratoryProblem"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/RespiratoryProblem">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalIssue"/>
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/RespiratoryProblem"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ShortnessOfBreath -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ShortnessOfBreath -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ShortnessOfBreath">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ShortnessOfBreath"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ShortnessOfBreath">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ShortnessOfBreath"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SmallHouse -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SmallHouse -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SmallHouse">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SmallHouse"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SmallHouse">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SmallHouse"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/StressWheezeAssociationStudy -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/StressWheezeAssociationStudy -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/StressWheezeAssociationStudy">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Study"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Bathroom"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Boiler"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Car"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_DVD"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Education"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Flooring"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Lightbulb"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Microwave"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_PC"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Room"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Toaster"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_VacuumCleaner"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/AMAI_Washer"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_1"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_2"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_3"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_4"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_5"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_6"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_7"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ISAAC_8"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PROGRESS_32"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Question"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/StressWheezeAssociationStudy">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Study"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Bathroom"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Boiler"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Car"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_DVD"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Education"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Flooring"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Lightbulb"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Microwave"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_PC"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Room"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Toaster"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_VacuumCleaner"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/AMAI_Washer"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_1"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_2"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_3"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_4"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_5"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_6"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_7"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ISAAC_8"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PROGRESS_32"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Question"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Study -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Study -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Study">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Study"/>
-        <chear:hasResource rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/DataCollectionInstrument"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Study">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Study"/>
+        <chear:hasResource rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/DataCollectionInstrument"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/StudyPerson -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/StudyPerson -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/StudyPerson">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/StudyPerson"/>
-        <chear:conduct rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Study"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/StudyPerson">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/StudyPerson"/>
+        <chear:conduct rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Study"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/SurveyDate">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SurveyDate"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/SurveyDate">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SurveyDate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TanitaBodyCompositionAnalyserForFatPercent -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TanitaBodyCompositionAnalyserForFatPercent -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TanitaBodyCompositionAnalyserForFatPercent">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/TanitaBodyCompositionAnalyserForFatPercent"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/PercentBodyFat"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TanitaBodyCompositionAnalyserForFatPercent">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/TanitaBodyCompositionAnalyserForFatPercent"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/PercentBodyFat"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TanitaBodyCompositionAnalyserForWeight -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TanitaBodyCompositionAnalyserForWeight -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TanitaBodyCompositionAnalyserForWeight">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/TanitaBodyCompositionAnalyserForWeight"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TanitaBodyCompositionAnalyserForWeight">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/TanitaBodyCompositionAnalyserForWeight"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalBodyFat -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalBodyFat -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalBodyFat">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/TotalBodyFat"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/FatFreeMass"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalBodyFat">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/TotalBodyFat"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/FatFreeMass"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalCaloricIntake -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalCaloricIntake -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/TotalCaloricIntake">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/TotalCaloricIntake"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/TotalCaloricIntake">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/TotalCaloricIntake"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WaistCircumference -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WaistCircumference -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WaistCircumference">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/WaistCircumference"/>
-        <chear:hasPositiveRelation rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Asthma"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WaistCircumference">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/WaistCircumference"/>
+        <chear:hasPositiveRelation rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Asthma"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WaistToHipRatio -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WaistToHipRatio -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WaistToHipRatio">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/WaistToHipRatio"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/HipCircumference"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WaistCircumference"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WaistToHipRatio">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/WaistToHipRatio"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/HipCircumference"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WaistCircumference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WallMountedStadiometer -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WallMountedStadiometer -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WallMountedStadiometer">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/WallMountedStadiometer"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Height"/>
-        <chear:measures rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WallMountedStadiometer"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WallMountedStadiometer">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/WallMountedStadiometer"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Height"/>
+        <chear:measures rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WallMountedStadiometer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Weight">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Weight"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Weight">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Weight"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WeightClass -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WeightClass -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/WeightClass">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/WeightClass"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Age"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BMIPercentile"/>
-        <chear:calculatedFrom rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/BodyMassIndex"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/WeightClass">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/WeightClass"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Age"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BMIPercentile"/>
+        <chear:calculatedFrom rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/BodyMassIndex"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/Wheezing">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/MedicalIssue"/>
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Wheezing"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/Wheezing">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/MedicalIssue"/>
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Wheezing"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/YellowZone -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/YellowZone -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/YellowZone">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YellowZone"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/YellowZone">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YellowZone"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/advised -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/advised -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/advised">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/advised">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/afraid -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/afraid -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/afraid">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/afraid">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/all -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/all -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/all">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/all">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/annual -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/annual -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/annual">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/annual">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/biannual -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/biannual -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/biannual">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/biannual">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/daily -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/daily -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/daily">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/daily">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/dissatisfied -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/dissatisfied -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/dissatisfied">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SatisfactionRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/dissatisfied">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SatisfactionRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/gt5year -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/gt5year -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/gt5year">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/gt5year">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/language_barrier -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/language_barrier -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/language_barrier">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/language_barrier">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/little_confident -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/little_confident -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/little_confident">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ConfidenceRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/little_confident">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ConfidenceRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/long_wait_time -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/long_wait_time -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/long_wait_time">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/long_wait_time">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/lt_once_month -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/lt_once_month -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/lt_once_month">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/lt_once_month">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ltyear -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ltyear -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/ltyear">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/ltyear">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/na -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/na -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/na">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Response"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/na">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Response"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/never -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/never -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/never">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/never">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YesNoRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YesNoRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_helper -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_helper -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_helper">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_helper">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_need -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_need -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_need">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_need">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_time -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_time -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_time">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_time">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_transport -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_transport -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/no_transport">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/no_transport">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/none -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/none -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/none">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/none">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/not_confident -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/not_confident -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/not_confident">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ConfidenceRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/not_confident">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ConfidenceRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/not_near -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/not_near -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/not_near">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/not_near">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/other -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/other -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/other">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/other">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/refused -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/refused -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/refused">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Response"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/refused">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Response"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/satisfied -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/satisfied -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/satisfied">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SatisfactionRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/satisfied">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SatisfactionRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/semi-annual -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/semi-annual -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/semi-annual">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/semi-annual">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/somewhat_confident -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/somewhat_confident -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/somewhat_confident">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ConfidenceRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/somewhat_confident">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ConfidenceRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/too_expensive -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/too_expensive -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/too_expensive">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ExcuseRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/too_expensive">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ExcuseRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/totally_confident -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/totally_confident -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/totally_confident">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/ConfidenceRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/totally_confident">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/ConfidenceRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/twice_week -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/twice_week -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/twice_week">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/twice_week">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/very_dissatisfied -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/very_dissatisfied -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/very_dissatisfied">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SatisfactionRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/very_dissatisfied">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SatisfactionRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/very_satisfied -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/very_satisfied -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/very_satisfied">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/SatisfactionRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/very_satisfied">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/SatisfactionRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/weekly -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/weekly -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/weekly">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/weekly">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/yes">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YesNoRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/yes">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YesNoRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/1-2year -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/1-2year -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/1-2year">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/1-2year">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/2-3times_month -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/2-3times_month -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/2-3times_month">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/FrequencyRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/2-3times_month">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/FrequencyRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/2-3year -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/2-3year -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/2-3year">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/2-3year">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/3-4year -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/3-4year -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/3-4year">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/3-4year">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/4-5year -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/4-5year -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/4-5year">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/YearRT"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/4-5year">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/YearRT"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know -->
+    <!-- https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know -->
 
-    <owl:NamedIndividual rdf:about="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP_INDIVIDUALS/don&apos;t_know">
-        <rdf:type rdf:resource="http://tw.rpi.edu/web/Courses/Ontologies/2016/OE_12_CHEAR_GROUP/Response"/>
+    <owl:NamedIndividual rdf:about="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chearIndividuals/don&apos;t_know">
+        <rdf:type rdf:resource="https://tw.rpi.edu/web/Courses/Ontologies/2016/projects/chear/ontology/chear/Response"/>
     </owl:NamedIndividual>
 
 </rdf:RDF>
